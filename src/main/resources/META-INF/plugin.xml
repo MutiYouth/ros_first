@@ -8,7 +8,7 @@
     <name>ROS_First</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="murphe@qq.com" url="https://github.com/MutiYouth/ib_clion_first">SUNSLAB</vendor>
+    <vendor email="murphe@qq.com" url="https://github.com/MutiYouth/clion_first">SUNSLAB</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.

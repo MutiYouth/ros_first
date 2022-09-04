@@ -6,7 +6,7 @@ Demo plugins project for Clion c++ developing and integrating features of ROS (R
 
 
 # Author
-Murphy Liu <br/>
+Murphe Liu <br/>
 murphe@qq.com
 
 
