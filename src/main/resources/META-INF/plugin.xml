@@ -21,11 +21,12 @@
     </description>
     <change-notes>
         <![CDATA[
-      <ul>
-        <li><b>0.2.0</b> add tool window, markdown live templates.</li>
-        <li><b>0.1.0</b> init.</li>
-      </ul>
-    ]]>
+          <ul>
+            <li><b>0.2.2</b> bugs fix.</li>
+            <li><b>0.2.0</b> add tool window, markdown live templates.</li>
+            <li><b>0.1.0</b> init.</li>
+          </ul>
+        ]]>
     </change-notes>
     <idea-version since-build="211.0"/>
 
@@ -43,7 +44,7 @@
 
         <!-- tool window -->
         <applicationService serviceImplementation="com.weng.ros_first.settings.AppSettingsState"/>
-        <toolWindow id="Sample Calendar" secondary="true" icon="AllIcons.General.Modified" anchor="right"
+        <toolWindow id="WENG Sample" secondary="true" icon="AllIcons.General.Modified" anchor="right"
                     factoryClass="com.weng.ros_first.tool_wnd.MyToolWindowFactory"/>
 
         <!-- markdown something  -->
