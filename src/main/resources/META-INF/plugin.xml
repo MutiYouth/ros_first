@@ -13,8 +13,20 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description>a hello plugins for clion. and changed for ros purpose.</description>
-    <change-notes>noting here</change-notes>
+    <description>
+        <![CDATA[
+        a hello plugins for clion. and changed for ros purpose.
+        </description>
+    ]]>
+    </description>
+    <change-notes>
+        <![CDATA[
+      <ul>
+        <li><b>0.2.0</b>add tool window, markdown live templates.</li>
+        <li><b>0.1.0</b>init.</li>
+      </ul>
+    ]]>
+    </change-notes>
     <idea-version since-build="211.0"/>
 
     <!-- Product and plugin compatibility requirements.
@@ -24,12 +36,25 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-        <applicationConfigurable parentId="tools" instance="com.weng.ib_clion_first.settings.AppSettingsConfigurable" id="test_id2"
+        <!-- settings -->
+        <applicationConfigurable parentId="tools" instance="com.weng.ib_clion_first.settings.AppSettingsConfigurable"
+                                 id="test_id2"
                                  displayName="WENG: APP Settings Example"/>
+
+        <!-- tool window -->
         <applicationService serviceImplementation="com.weng.ib_clion_first.settings.AppSettingsState"/>
+        <toolWindow id="Sample Calendar" secondary="true" icon="AllIcons.General.Modified" anchor="right"
+                    factoryClass="com.weng.ib_clion_first.tool_wnd.MyToolWindowFactory"/>
+
+        <!-- markdown something  -->
+        <defaultLiveTemplates file="/liveTemplates/Markdown.xml"/>
+        <liveTemplateContext implementation="com.weng.ib_clion_first.md_live_templates.MarkdownContext"/>
+        <liveTemplateMacro implementation="com.weng.ib_clion_first.md_live_templates.TitleCaseMacro"/>
     </extensions>
     <actions>
-        <action id="test_id" class="com.weng.ib_clion_first.actions.TestActionFirst" text="Menu通知" description="测试通知的功能">
+        <!-- 通知 -->
+        <action id="test_id" class="com.weng.ib_clion_first.actions.TestActionFirst" text="Menu通知"
+                description="测试通知的功能">
             <add-to-group group-id="ToolsMenu" anchor="first"/>
         </action>
     </actions>
