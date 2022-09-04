@@ -47,7 +47,7 @@
                     factoryClass="com.weng.ib_clion_first.tool_wnd.MyToolWindowFactory"/>
 
         <!-- markdown something  -->
-        <defaultLiveTemplates file="/liveTemplates/Markdown.xml"/>
+        <defaultLiveTemplates file="/live_templates/live_template_markdown.xml"/>
         <liveTemplateContext implementation="com.weng.ib_clion_first.md_live_templates.MarkdownContext"/>
         <liveTemplateMacro implementation="com.weng.ib_clion_first.md_live_templates.TitleCaseMacro"/>
     </extensions>

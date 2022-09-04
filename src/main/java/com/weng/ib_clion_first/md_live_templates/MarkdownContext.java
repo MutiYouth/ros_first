@@ -8,13 +8,13 @@ import org.jetbrains.annotations.NotNull;
 
 public class MarkdownContext extends TemplateContextType {
 
-  protected MarkdownContext() {
-    super("MARKDOWN", "Markdown");
-  }
+	protected MarkdownContext() {
+		super("MARKDOWN", "Markdown");
+	}
 
-  @Override
-  public boolean isInContext(@NotNull TemplateActionContext templateActionContext) {
-    return templateActionContext.getFile().getName().endsWith(".md");
-  }
+	@Override
+	public boolean isInContext(@NotNull TemplateActionContext templateActionContext) {
+		return templateActionContext.getFile().getName().endsWith(".md");
+	}
 
 }
