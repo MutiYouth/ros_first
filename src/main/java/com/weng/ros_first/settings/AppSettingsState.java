@@ -1,4 +1,4 @@
-package com.weng.ib_clion_first.settings;
+package com.weng.ros_first.settings;
 
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.components.PersistentStateComponent;
