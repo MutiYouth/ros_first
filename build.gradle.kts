@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.weng"
-version = "0.2.2" // -SNAPSHOT
+version = "0.2.3" // -SNAPSHOT
 
 repositories {
     mavenCentral()
@@ -29,6 +29,23 @@ tasks {
     patchPluginXml {
         sinceBuild.set("212.*")
         untilBuild.set("223.*")
+        // 以plugin.xml中设置的 changeNotes为优先级最高。  9.6
+        /*changeNotes.set("""
+            hello test.
+            <p>
+                <b>0.2.0</b>
+                <ul>
+                    <li>as so.</li>
+                </ul>
+            </p>
+            <p>
+                <b>0.1.0</b>
+                <ul>
+                    <li>xxxx</li>
+                </ul>
+            </p>
+            
+        """.trimIndent())*/
     }
 
     signPlugin {

@@ -1,0 +1,28 @@
+<!-- included by /META-INF/plugin.xml -->
+<idea-plugin>
+    <!-- Extension points defined by the plugin.
+             Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- settings -->
+        <applicationConfigurable parentId="tools" instance="com.weng.ros_first.settings.AppSettingsConfigurable"
+                                 id="test_id2"
+                                 displayName="WENG: APP Settings Example"/>
+
+        <!-- tool window -->
+        <applicationService serviceImplementation="com.weng.ros_first.settings.AppSettingsState"/>
+        <toolWindow id="WENG Sample" secondary="true" icon="AllIcons.General.Modified" anchor="right"
+                    factoryClass="com.weng.ros_first.tool_wnd.MyToolWindowFactory"/>
+
+        <!-- markdown something  -->
+        <defaultLiveTemplates file="/live_templates/live_template_markdown.xml"/>
+        <liveTemplateContext implementation="com.weng.ros_first.md_live_templates.MarkdownContext"/>
+        <liveTemplateMacro implementation="com.weng.ros_first.md_live_templates.TitleCaseMacro"/>
+    </extensions>
+    <actions>
+        <!-- 通知 -->
+        <action id="test_id" class="com.weng.ros_first.actions.TestActionFirst" text="Menu通知"
+                description="测试通知的功能">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>

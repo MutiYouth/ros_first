@@ -1,0 +1,26 @@
+<!-- included by /META-INF/plugin.xml -->
+<idea-plugin>
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor email="murphe@qq.com" url="https://github.com/MutiYouth/clion_first">SUNSLAB</vendor>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description>
+        <![CDATA[
+        a hello plugins for clion. and featured developing for ros purpose.
+        </description>
+    ]]>
+    </description>
+    <change-notes>
+        <![CDATA[
+          <ul>
+            <li><b>0.2.3</b> refactor plugin.xml, with different xml.</li>
+            <li><b>0.2.2</b> bugs fix.</li>
+            <li><b>0.2.0</b> add tool window, markdown live templates.</li>
+            <li><b>0.1.0</b> init.</li>
+          </ul>
+        ]]>
+    </change-notes>
+    <idea-version since-build="211.0"/>
+</idea-plugin>
