@@ -43,7 +43,7 @@ class ConfigEntry : Configurable {
     }
 
     override fun getHelpTopic(): String? {
-        return "Configuration for the code_glance minimap"
+        return "Configuration for the ROS_FIRST_CODE_GLANCE minimap"
     }
 
     override fun createComponent(): JComponent? {
@@ -53,17 +53,17 @@ class ConfigEntry : Configurable {
     }
 
     override fun isModified(): Boolean = form != null && (
-        config.disabled != form!!.isDisabled
-            || config.pixelsPerLine != form!!.pixelsPerLine
-            || config.jumpOnMouseDown != form!!.jumpOnMouseDown()
-            || config.width != form!!.width
-            || config.locked != form!!.isLocked
-            || config.viewportColor != form!!.viewportColor
-            || config.minLineCount != form!!.minLinesCount
-            || config.minWindowWidth != form!!.minWindowWidth
-            || config.clean != form!!.cleanStyle
-            || config.isRightAligned != form!!.isRightAligned
-    )
+            config.disabled != form!!.isDisabled
+                    || config.pixelsPerLine != form!!.pixelsPerLine
+                    || config.jumpOnMouseDown != form!!.jumpOnMouseDown()
+                    || config.width != form!!.width
+                    || config.locked != form!!.isLocked
+                    || config.viewportColor != form!!.viewportColor
+                    || config.minLineCount != form!!.minLinesCount
+                    || config.minWindowWidth != form!!.minWindowWidth
+                    || config.clean != form!!.cleanStyle
+                    || config.isRightAligned != form!!.isRightAligned
+            )
 
     @Throws(ConfigurationException::class)
     override fun apply() {
@@ -93,7 +93,7 @@ class ConfigEntry : Configurable {
 
         form!!.pixelsPerLine = config.pixelsPerLine
         form!!.isDisabled = config.disabled
-        form!!.isLocked= config.locked
+        form!!.isLocked = config.locked
         form!!.setJumpOnMouseDown(config.jumpOnMouseDown)
         form!!.viewportColor = config.viewportColor
         form!!.width = config.width

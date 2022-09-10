@@ -6,16 +6,16 @@ import com.intellij.openapi.components.Storage
 import com.intellij.util.xmlb.XmlSerializerUtil
 
 @State(
-    name = "code_glance",
-    storages = [Storage("code_glance.xml")]
+    name = "ROS_FIRST_CODE_GLANCE",
+    storages = [Storage("ROS_FIRST_CODE_GLANCE.xml")]
 )
 class ConfigService : PersistentStateComponent<Config> {
-    private val observers : MutableSet<() -> Unit> = hashSetOf()
+    private val observers: MutableSet<() -> Unit> = hashSetOf()
     private val config = Config()
 
     override fun getState(): Config? = config
-    public fun addOnChange(f :() -> Unit) = observers.add(f)
-    public fun removeOnChange(f :() -> Unit) = observers.remove(f)
+    public fun addOnChange(f: () -> Unit) = observers.add(f)
+    public fun removeOnChange(f: () -> Unit) = observers.remove(f)
 
     public fun notifyChange() {
         observers.forEach {

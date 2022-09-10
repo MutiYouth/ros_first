@@ -45,7 +45,7 @@ class Minimap(private val config: Config) {
      * @param editor        The editor being drawn
      */
     @Synchronized
-    fun  update(editor: EditorEx, scrollstate: ScrollState, indicator: ProgressIndicator?) {
+    fun update(editor: EditorEx, scrollstate: ScrollState, indicator: ProgressIndicator?) {
         logger.debug("Updating file image.")
 
         if (img == null || img!!.height < scrollstate.documentHeight || img!!.width < config.width) {
@@ -53,7 +53,11 @@ class Minimap(private val config: Config) {
             // Create an image that is a bit bigger then the one we need so we don't need to re-create it again soon.
             // Documents can get big, so rather then relative sizes lets just add a fixed amount on.
             // TODO: Add handling for HiDPI scaling and switch back to UIUtil.createImage
-            img = BufferedImage(config.width, scrollstate.documentHeight + (100 * config.pixelsPerLine), BufferedImage.TYPE_4BYTE_ABGR)
+            img = BufferedImage(
+                config.width,
+                scrollstate.documentHeight + (100 * config.pixelsPerLine),
+                BufferedImage.TYPE_4BYTE_ABGR
+            )
             logger.debug("Created new image")
         }
 
@@ -129,6 +133,7 @@ class Minimap(private val config: Config) {
                         x = 0
                         y += config.pixelsPerLine
                     }
+
                     '\t' -> x += 4
                     else -> x += 1
                 }
@@ -170,12 +175,14 @@ class Minimap(private val config: Config) {
                 setPixel(x, y, color, weight * 0.3f, buffer)
                 setPixel(x, y + 1, color, weight * 0.6f, buffer)
             }
+
             3 -> {
                 // Three lines we make the top nearly empty, and fade the bottom a little too
                 setPixel(x, y, color, weight * 0.1f, buffer)
                 setPixel(x, y + 1, color, weight * 0.6f, buffer)
                 setPixel(x, y + 2, color, weight * 0.6f, buffer)
             }
+
             4 -> {
                 // Empty top line, Nice blend for everything else
                 setPixel(x, y + 1, color, weight * 0.6f, buffer)
@@ -201,12 +208,14 @@ class Minimap(private val config: Config) {
                 setPixel(x, y, color, topWeight * 0.5f, buffer)
                 setPixel(x, y + 1, color, bottomWeight, buffer)
             }
+
             3 -> {
                 // Three lines we make the top nearly empty, and fade the bottom a little too
                 setPixel(x, y, color, topWeight * 0.3f, buffer)
                 setPixel(x, y + 1, color, ((topWeight + bottomWeight) / 2.0).toFloat(), buffer)
                 setPixel(x, y + 2, color, bottomWeight * 0.7f, buffer)
             }
+
             4 -> {
                 // Empty top line, Nice blend for everything else
                 setPixel(x, y + 1, color, topWeight, buffer)

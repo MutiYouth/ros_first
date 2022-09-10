@@ -44,7 +44,8 @@ class TaskRunner : Runnable {
         while (!stop) {
             try {
                 taskQueue.take()()
-            } catch (e: InterruptedException) {}
+            } catch (e: InterruptedException) {
+            }
         }
     }
 }

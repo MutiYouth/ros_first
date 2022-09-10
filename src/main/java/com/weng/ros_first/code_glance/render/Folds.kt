@@ -28,7 +28,7 @@ package com.weng.ros_first.code_glance.render
 import com.intellij.openapi.editor.FoldRegion
 
 // Is a copy of Array<FoldRegion> that only contains folded folds and can be passed safely to another thread
-class Folds{
+class Folds {
     private val foldsSet: HashSet<Int> = hashSetOf()
 
     constructor(allFolds: Array<FoldRegion>) {

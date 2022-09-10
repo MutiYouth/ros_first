@@ -111,14 +111,14 @@ class GlancePanel(private val project: Project, textEditor: TextEditor) : JPanel
         }
         editor.document.addDocumentListener(documentListener)
 
-        val foldListener = object : FoldingListener{
+        val foldListener = object : FoldingListener {
             override fun onFoldProcessingEnd() = updateImage()
 
             override fun onFoldRegionStateChange(region: FoldRegion) = updateImage()
         }
         editor.foldingModel.addListener(foldListener, this)
 
-        areaListener = VisibleAreaListener{
+        areaListener = VisibleAreaListener {
             scrollstate.recomputeVisible(it.newRectangle)
             repaint()
         }
@@ -146,8 +146,7 @@ class GlancePanel(private val project: Project, textEditor: TextEditor) : JPanel
                         scrollstate.recomputeVisible(editor.scrollingModel.visibleArea)
                         repaint()
                     }
-                }
-                finally {
+                } finally {
                     renderLock.release()
                     if (renderLock.dirty) {
                         renderLock.clean()
@@ -183,7 +182,7 @@ class GlancePanel(private val project: Project, textEditor: TextEditor) : JPanel
 
     // the minimap is held by a soft reference so the GC can delete it at any time.
     // if its been deleted and we want it again (active tab) we recreate it.
-    private fun getOrCreateMap() : Minimap? {
+    private fun getOrCreateMap(): Minimap? {
         var map = mapRef.get()
 
         if (map == null) {
@@ -211,10 +210,12 @@ class GlancePanel(private val project: Project, textEditor: TextEditor) : JPanel
         val g = gfx as Graphics2D
 
         if (buf != null) {
-            g.drawImage(buf,
+            g.drawImage(
+                buf,
                 0, 0, buf!!.width, buf!!.height,
                 0, 0, buf!!.width, buf!!.height,
-                null)
+                null
+            )
         }
         paintSelections(g)
         scrollbar.paint(gfx)

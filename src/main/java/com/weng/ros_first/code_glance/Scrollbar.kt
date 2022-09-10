@@ -16,7 +16,7 @@ import java.awt.event.MouseWheelEvent
 import javax.swing.JPanel
 import kotlin.math.roundToInt
 
-class Scrollbar(private val editor: Editor, private val scrollstate : ScrollState) : JPanel(), Disposable {
+class Scrollbar(private val editor: Editor, private val scrollstate: ScrollState) : JPanel(), Disposable {
     private val defaultCursor = Cursor(Cursor.DEFAULT_CURSOR)
 
     private var visibleRectAlpha = DEFAULT_ALPHA
@@ -105,6 +105,7 @@ class Scrollbar(private val editor: Editor, private val scrollstate : ScrollStat
                     resizeStart = e.xOnScreen
                     widthStart = config.width
                 }
+
                 isInRect(e.y) -> {
                     dragging = true
                     visibleRectAlpha = DRAG_ALPHA
@@ -113,19 +114,21 @@ class Scrollbar(private val editor: Editor, private val scrollstate : ScrollStat
                     // Disable animation when dragging for better experience.
                     editor.scrollingModel.disableAnimation()
                 }
+
                 config.jumpOnMouseDown -> jumpToLineAt(e.y)
             }
         }
 
         override fun mouseDragged(e: MouseEvent?) {
             if (resizing) {
-                val newWidth = widthStart + if(config.isRightAligned) resizeStart - e!!.xOnScreen else e!!.xOnScreen - resizeStart
+                val newWidth =
+                    widthStart + if (config.isRightAligned) resizeStart - e!!.xOnScreen else e!!.xOnScreen - resizeStart
                 config.width = newWidth.coerceIn(50, 250)
                 configService.notifyChange()
             } else if (dragging) {
                 val delta = (dragStartDelta + (e!!.y - dragStart)).toFloat()
                 val newPos = if (scrollstate.documentHeight < scrollstate.visibleHeight)
-                    // Full doc fits into minimap, use exact value
+                // Full doc fits into minimap, use exact value
                     delta
                 else scrollstate.run {
                     // Who says algebra is useless?

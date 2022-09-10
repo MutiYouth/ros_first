@@ -66,7 +66,9 @@ class ScrollState {
         viewportStart = (visibleArea.y * scale).toInt()
         viewportHeight = (visibleArea.height * scale).toInt()
 
-        visibleStart = ((viewportStart.toFloat() / (documentHeight - viewportHeight + 1)) * (documentHeight - visibleHeight + 1)).toInt().coerceAtLeast(0)
+        visibleStart =
+            ((viewportStart.toFloat() / (documentHeight - viewportHeight + 1)) * (documentHeight - visibleHeight + 1)).toInt()
+                .coerceAtLeast(0)
         visibleEnd = visibleStart + drawHeight
     }
 }
