@@ -1,0 +1,16 @@
+<!-- included by /META-INF/plugin.xml -->
+<idea-plugin>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <actions>
+        <action id="code_glance.toggle" text="Toggle CodeGlance" class="com.weng.ros_first.code_glance.actions.ShowHideAction" description="Toggles code_glance on and off">
+            <keyboard-shortcut first-keystroke="control shift G" keymap="$default" />
+        </action>
+    </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService serviceImplementation="com.weng.ros_first.code_glance.config.ConfigService" />
+        <applicationConfigurable instance="com.weng.ros_first.code_glance.config.ConfigEntry" />
+    </extensions>
+</idea-plugin>

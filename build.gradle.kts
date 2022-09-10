@@ -1,5 +1,6 @@
 plugins {
     id("java")
+    id("org.jetbrains.kotlin.jvm") version "1.7.10"
     id("org.jetbrains.intellij") version "1.7.0"
 }
 
@@ -10,9 +11,16 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.testng:testng:6.8.5")
+}
+
+
 // Configure Gradle IntelliJ Plugin
 // Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
 intellij {
+    // 用来测试的IDEA的版本
     version.set("2021.3")
     type.set("IC") // Target IDE Platform
 
