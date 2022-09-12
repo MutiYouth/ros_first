@@ -132,13 +132,24 @@ class CodeGlanceConfigurable : BoundSearchableConfigurable("Code Glance Pro", "c
                     }
                 )
             }
+            group("PRO Setting Test"){
+                twoColumnsRow(
+                    {
+                        checkBox("Hi Test").bold()
+                    },
+                    {
+                        // https://www.w3school.com.cn/tiy/t.asp?f=eg_html_paragraphs
+                        checkBox("Hi Test 2")  // .comment("<span style=\"color:red\">hello word.</span>")
+                    }
+                ).bottomGap(BottomGap.SMALL)
+            }
         }
     }
 
     override fun apply() {
         super.apply()
-        if ((!config.isRightAligned || config.disabled) && config.hoveringToShowScrollBar) config.hoveringToShowScrollBar =
-            false
+        if ((!config.isRightAligned || config.disabled) && config.hoveringToShowScrollBar)
+            config.hoveringToShowScrollBar = false
         invokeLater { SettingsChangePublisher.onGlobalChanged() }
     }
 }
