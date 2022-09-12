@@ -28,7 +28,8 @@ package com.weng.ros_first.code_glance.config
 class Config {
     var pixelsPerLine: Int = 4
     var minLineCount: Int = 1
-    var disabled: Boolean = false
+    @JvmField
+    public var disabled: Boolean = false
     var jumpOnMouseDown: Boolean = true
     var width: Int = 110
     var viewportColor: String = "A0A0A0"

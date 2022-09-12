@@ -1,19 +1,30 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
+fun properties(key: String) = project.findProperty(key)?.toString() ?: ""
+val env: MutableMap<String, String> = System.getenv()
+val dir: String = projectDir.parentFile.absolutePath
+
+
 plugins {
     id("java")
     id("org.jetbrains.kotlin.jvm") version "1.7.10"
-    id("org.jetbrains.intellij") version "1.7.0"
+    id("org.jetbrains.intellij") version "1.9.0"
 }
 
-group = "com.weng"
-version = "0.3.0" // -SNAPSHOT
+group = properties("pluginGroup")
+version = properties("pluginVersion") // -SNAPSHOT
 
 repositories {
+    // mavenCentral()
+    // 使用阿里云仓库
+    mavenLocal()
+    maven("https://maven.aliyun.com/nexus/content/repositories/central/")
     mavenCentral()
 }
 
 dependencies {
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.testng:testng:6.8.5")
+    testImplementation("org.testng:testng:7.6.1")
 }
 
 
@@ -24,7 +35,9 @@ intellij {
     version.set("2021.3")
     type.set("IC") // Target IDE Platform
 
-    plugins.set(listOf(/* Plugin Dependencies */))
+    // plugins.set(listOf(/* Plugin Dependencies */))
+    plugins.set(properties("platformPlugins").split(',').map(String::trim).filter(String::isNotEmpty))
+    env["languagePlugins"]?.let { plugins.add(it) }
 }
 
 tasks {
@@ -35,8 +48,8 @@ tasks {
     }
 
     patchPluginXml {
-        sinceBuild.set("212.*")
-        untilBuild.set("223.*")
+        sinceBuild.set(properties("pluginSinceBuild"))
+        untilBuild.set(properties("pluginUntilBuild"))
         // 以plugin.xml中设置的 changeNotes为优先级最高。  9.6
         /*changeNotes.set("""
             hello test.

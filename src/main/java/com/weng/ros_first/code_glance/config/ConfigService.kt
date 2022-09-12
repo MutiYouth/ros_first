@@ -13,7 +13,7 @@ class ConfigService : PersistentStateComponent<Config> {
     private val observers: MutableSet<() -> Unit> = hashSetOf()
     private val config = Config()
 
-    override fun getState(): Config? = config
+    override fun getState(): Config ? = config
     public fun addOnChange(f: () -> Unit) = observers.add(f)
     public fun removeOnChange(f: () -> Unit) = observers.remove(f)
 

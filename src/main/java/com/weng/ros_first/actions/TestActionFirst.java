@@ -23,7 +23,7 @@ public class TestActionFirst extends AnAction {
 			sourceRootsList.append(file.getUrl()).append("\n");
 		}
 		Messages.showInfoMessage(
-				"WENG: Notice " + projectName + " plugin:\n" + sourceRootsList.toString(),
+				"Source ROOT List of \" " + projectName + "\" plugin:\n" + sourceRootsList.toString(),
 				"WENG NOTICE"
 		);
 	}

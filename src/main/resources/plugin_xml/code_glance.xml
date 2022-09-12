@@ -5,7 +5,11 @@
 
     <actions>
         <action id="code_glance.toggle" text="Toggle CodeGlance" class="com.weng.ros_first.code_glance.actions.ShowHideAction" description="Toggles code_glance on and off">
-            <keyboard-shortcut first-keystroke="control shift G" keymap="$default" />
+            <!-- <keyboard-shortcut first-keystroke="control shift G" keymap="$default" /> -->
+        </action>
+        <action class="com.weng.ros_first.actions.TestActionShowMiniMap" id="ShowMiniMap" text="Show Mini Map" description="this is action demo" >
+            <!-- 将插件放在Tools菜单中的first位置。 -->
+            <add-to-group group-id="ToolsMenu" anchor="first" />
         </action>
     </actions>
 

@@ -18,7 +18,7 @@ class CodeGlancePlugin(private val project: Project) : ProjectComponent {
     }
 
     override fun getComponentName(): String {
-        return "ROS_FIRST"
+        return "CodeGlancePlugin"
     }
 
     override fun projectOpened() {

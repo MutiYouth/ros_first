@@ -28,12 +28,20 @@ package com.weng.ros_first.code_glance.actions
 import com.intellij.openapi.actionSystem.AnAction
 import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.components.ServiceManager
+import com.intellij.openapi.ui.Messages
 import com.weng.ros_first.code_glance.config.ConfigService
 
 class ShowHideAction : AnAction() {
     private val configService = ServiceManager.getService(ConfigService::class.java)
 
     override fun actionPerformed(anActionEvent: AnActionEvent) {
+        println("Hello World! clicked AnAction")
+
+        Messages.showInfoMessage(
+            "Source ROOT List of plugin:",
+            "WENG NOTICE"
+        )
+
         configService.state!!.disabled = !configService.state!!.disabled
         configService.notifyChange()
     }
