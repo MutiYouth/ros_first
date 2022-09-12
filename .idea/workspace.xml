@@ -7,13 +7,15 @@
     <option name="groupLineBookmarks" value="false" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9046d34c-85dc-4a7f-8237-382c174375da" name="Changes" comment="feat, add run again">
+    <list default="true" id="9046d34c-85dc-4a7f-8237-382c174375da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/2EZ0ZfFTFA2Cpd7jKzs36z5jIAY.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin_xml/ros_first_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin_xml/ros_first_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/psi/impl/ROSPackageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/psi/impl/ROSPackageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/xml/VersionRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/xml/VersionRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/xml/ui/NewLicenseDialogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/xml/ui/NewLicenseDialogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkt/dialog/NewROSMsgDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkt/dialog/NewROSMsgDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/settings/ROSSettingsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/settings/ROSSettingsPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ros_first" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ros_first" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -151,7 +159,7 @@
       <recent name="E:\Learns\Java\Projs\220904_clion_plugins\ros_first\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ros_first [buildPlugin]">
+  <component name="RunManager" selected="Gradle.Run Plugin (启动另一个测试版本的IDEA)">
     <configuration name="ros_first [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -229,6 +237,9 @@
       <workItem from="1662973619856" duration="78000" />
       <workItem from="1662973712330" duration="1164000" />
       <workItem from="1662974934243" duration="1774000" />
+      <workItem from="1662976817641" duration="2376000" />
+      <workItem from="1662979390662" duration="362000" />
+      <workItem from="1662979822498" duration="518000" />
     </task>
     <task id="LOCAL-00001" summary="feat, integration CodeGlancePro repository">
       <created>1662955834231</created>
@@ -244,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662962258624</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat, init for ros-integrate module of forked respository">
+      <created>1662977128819</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662977128819</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,7 +327,8 @@
     <MESSAGE value="feat, stop current version of codeglance3, until i can hold it" />
     <MESSAGE value="feat, integration CodeGlancePro repository" />
     <MESSAGE value="style, code format" />
-    <option name="LAST_COMMIT_MESSAGE" value="style, code format" />
+    <MESSAGE value="feat, init for ros-integrate module of forked respository" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat, init for ros-integrate module of forked respository" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

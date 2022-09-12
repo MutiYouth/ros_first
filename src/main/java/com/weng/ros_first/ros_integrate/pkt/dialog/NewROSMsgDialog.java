@@ -14,6 +14,7 @@ import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.DialogWrapper;
 import com.intellij.openapi.ui.Messages;
 import com.intellij.openapi.ui.TextComponentAccessor;
+import com.intellij.openapi.ui.TextComponentAccessors;
 import com.intellij.openapi.util.Disposer;
 import com.intellij.openapi.util.Pair;
 import com.intellij.psi.PsiDirectory;
@@ -159,7 +160,7 @@ public class NewROSMsgDialog extends DialogWrapper {
     void installHistory(FileChooserDescriptor descriptor, String currentEntry) {
         targetDirField.addBrowseFolderListener("Choose Target Directory",
                 "The ROS Message file will be created here",
-                project, descriptor, TextComponentAccessor.TEXT_FIELD_WITH_HISTORY_WHOLE_TEXT);
+                project, descriptor, TextComponentAccessors.TEXT_FIELD_WITH_HISTORY_WHOLE_TEXT);
 
         List<String> recentEntries = Optional.ofNullable(RecentsManager.getInstance(project).getRecentEntries(RECENT_KEYS))
                         .orElse(new LinkedList<>());

@@ -18,6 +18,7 @@ import com.weng.ros_first.ros_integrate.pkg.xml.ROSLicenses;
 import com.weng.ros_first.ros_integrate.ui.*;
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.function.BiConsumer;
 import java.util.stream.Collectors;
@@ -161,7 +162,7 @@ public class ROSSettingsPage implements SearchableConfigurable {
                 || isModified(workspace.getTextEditor(), data.getWorkspacePath())
                 || isModified(additionalSources.getTextEditor(), data.getRawAdditionalSources())
                 || isModified(excludedXmls.getTextEditor(), data.getRawExcludedXmls())
-                || isModified(licenseLinkType, data.getLicenseLinkType())
+                || Objects.equals((String)licenseLinkType.getSelectedItem(), data.getLicenseLinkType())  // isModified(licenseLinkType, data.getLicenseLinkType())
                 || isModified(rosdepSources.getTextEditor(), data.getRawROSDepSources())
                 || isModified(knownRosdepKeys.getTextEditor(), data.getRawKnownROSDepKeys());
     }

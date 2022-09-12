@@ -95,7 +95,7 @@ public abstract class ROSPackageBase extends PsiElementBase implements ROSPackag
     }
 
     @Override
-    public void putInfo(@NotNull Map<String, String> info) {
+    public void putInfo(@NotNull Map<? super String, ? super String> info) {
         info.put("fileName", getName());
     }
 

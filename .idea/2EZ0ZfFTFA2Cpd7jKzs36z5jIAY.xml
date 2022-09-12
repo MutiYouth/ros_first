@@ -1,0 +1,1151 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="bookmarks">
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkt/dialog/NewROSMsgDialog.java" />
+              <entry key="line" value="162" />
+            </attributes>
+            <option name="description" value="project, descriptor, TextComponentAccessors.TEXT_FIELD_WITH_HISTORY_WHOLE_TEXT);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="jar://$PROJECT_DIR$/../../../../Android/_LIBS/gradle_user_home/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/4aa17d162c81293d88aa56a54f655e784a8ba8ab/ideaIC-2022.1-sources.jar!/com/intellij/execution/ui/AlternativeJREPanel.java" />
+              <entry key="line" value="79" />
+            </attributes>
+            <option name="description" value="TextComponentAccessors.TEXT_FIELD_WITH_HISTORY_WHOLE_TEXT);" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/settings/ROSSettingsPage.java" />
+              <entry key="line" value="164" />
+            </attributes>
+            <option name="description" value="|| isModified(licenseLinkType, data.getLicenseLinkType())" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+          <BookmarkState>
+            <attributes>
+              <entry key="url" value="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/xml/ui/NewLicenseDialogue.java" />
+              <entry key="line" value="113" />
+            </attributes>
+            <option name="description" value="project, descriptor, TextComponentAccessor.getTextComponent()); // TextComponentAccessor.TEXT_FIELD_WITH_HISTORY_WHOLE_TEXT" />
+            <option name="provider" value="com.intellij.ide.bookmark.providers.LineBookmarkProvider" />
+          </BookmarkState>
+        </option>
+        <option name="name" value="BUGS WHEN DEV" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:feature/ros_integrate" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/xml/ui/NewLicenseDialogue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1680">
+              <caret line="113" column="59" selection-start-line="113" selection-start-column="37" selection-end-line="113" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/xml/intention/AddLicenseFileFix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1248">
+              <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../../Android/_LIBS/gradle_user_home/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/4aa17d162c81293d88aa56a54f655e784a8ba8ab/ideaIC-2022.1-sources.jar!/com/intellij/execution/ui/AlternativeJREPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/settings/ROSSettingsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3264">
+              <caret line="163" column="15" selection-start-line="163" selection-start-column="15" selection-end-line="163" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="79" column="52" lean-forward="true" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../../Android/_LIBS/gradle_user_home/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/4aa17d162c81293d88aa56a54f655e784a8ba8ab/ideaIC-2022.1-sources.jar!/com/intellij/openapi/options/Configurable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3585">
+              <caret line="214" column="28" selection-start-line="214" selection-start-column="18" selection-end-line="214" selection-end-column="28" />
+              <folding>
+                <element signature="e#12447#12448#0" expanded="true" />
+                <element signature="e#12517#12518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../../Android/_LIBS/gradle_user_home/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/4aa17d162c81293d88aa56a54f655e784a8ba8ab/ideaIC-2022.1-sources.jar!/com/intellij/openapi/ui/ComboBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkt/dialog/NewROSMsgDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2664">
+              <caret line="162" selection-start-line="162" selection-end-line="162" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/settings/ROSSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5808">
+              <caret line="296" column="30" selection-start-line="296" selection-start-column="30" selection-end-line="296" selection-end-column="30" />
+              <folding>
+                <element signature="e#9747#9748#0" expanded="true" />
+                <element signature="e#9791#9792#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../../Android/_LIBS/gradle_user_home/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/4aa17d162c81293d88aa56a54f655e784a8ba8ab/ideaIC-2022.1-sources.jar!/com/intellij/openapi/ui/TextComponentAccessors.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary">
+    <fileType name="Dictionary">
+      <summary usageCount="1" lastUsed="1662977016032" />
+    </fileType>
+    <fileType name="GUI_DESIGNER_FORM">
+      <summary usageCount="6" lastUsed="1662962347173" />
+    </fileType>
+    <fileType name="GitIgnore file">
+      <summary usageCount="5" lastUsed="1662977040445" />
+    </fileType>
+    <fileType name="HTML">
+      <summary usageCount="4" lastUsed="1662976874930" />
+    </fileType>
+    <fileType name="Image">
+      <summary usageCount="5" lastUsed="1662977046275" />
+    </fileType>
+    <fileType name="JAVA">
+      <summary usageCount="186" lastUsed="1662979821101" />
+    </fileType>
+    <fileType name="Kotlin">
+      <summary usageCount="202" lastUsed="1662977033591" />
+    </fileType>
+    <fileType name="Markdown">
+      <summary usageCount="21" lastUsed="1662977167048" />
+    </fileType>
+    <fileType name="PLAIN_TEXT">
+      <summary usageCount="4" lastUsed="1662970414811" />
+    </fileType>
+    <fileType name="Properties">
+      <summary usageCount="30" lastUsed="1662977016902" />
+    </fileType>
+    <fileType name="Python">
+      <summary usageCount="2" lastUsed="1662826890710" />
+    </fileType>
+    <fileType name="SVG">
+      <summary usageCount="10" lastUsed="1662977007985" />
+    </fileType>
+    <fileType name="XML">
+      <summary usageCount="78" lastUsed="1662979820891" />
+    </fileType>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>codeGance3</find>
+      <find>project.version}</find>
+      <find>assertTrue</find>
+      <find>CodeGlanceBundle</find>
+      <find>sandboxDir</find>
+      <find>height</find>
+      <find>Disabled by Default</find>
+      <find>settings.disabled</find>
+      <find>checkBox</find>
+      <find>color</find>
+      <find>ROSMsgDarkDefault</find>
+      <find>intellij</find>
+      <find>patchPluginXml</find>
+      <find>ROSPktComment</find>
+      <find>/icons</find>
+      <find>getIcon</find>
+      <find>ROSConditionToken</find>
+      <find>ROSWorkspacePackageFinder</find>
+      <find>extensions</find>
+      <find>defaultExtensionNs</find>
+      <find>packageFinder</find>
+      <find>addBrowseFolderListener</find>
+      <find>TextComponentAccessor</find>
+      <find>sourceSets</find>
+      <find>);</find>
+      <find>ros.integrate</find>
+      <find>TEXT_FIELD_WITH_HISTORY_WHOLE_TEXT</find>
+      <find>NewLicenseDialogue</find>
+      <find>ComboBox</find>
+      <find>isModified</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>com.weng.ros_first</replace>
+      <replace>code_glance</replace>
+      <replace>/ros_integrate/icons</replace>
+      <replace>, ROSIcons.class);</replace>
+      <replace>com.weng.ros_first.ros_integrate</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main\java\com\weng\ros_first</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\test\java\com\weng\ros_first\codeglance\render</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main\java\com\weng\ros_first\code_glance</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main\java\com\weng\ros_first\code_glance_pro</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main\resources\ros_integrate\meta_Inf</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main\gen</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main\resources\ros_integrate\pluginXml</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main\resources</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main\java\com\weng\ros_first\ros_integrate</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main\resources\ros_integrate</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main\gen\com\weng\ros_first\ros_integrate</dir>
+      <dir>E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main\java\com\weng\ros_first\ros_integrate\pkg</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/codeglance/CodeGlancePlugin.kt" />
+      <option value="$PROJECT_DIR$/src/test/java/com/weng/ros_first/codeglance/render/TaskRunnerTest.kt" />
+      <option value="$PROJECT_DIR$/src/test/java/com/weng/ros_first/codeglance/render/FakeFold.kt" />
+      <option value="$PROJECT_DIR$/src/main/resources/plugin_xml/basic_plugin_grammar.xml" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance/concurrent/DirtyLock.kt" />
+      <option value="$PROJECT_DIR$/src/main/resources/plugin_xml/code_glance.xml" />
+      <option value="$PROJECT_DIR$/src/test/java/com/weng/ros_first/codeglance/render/CharacterWeightTest.kt" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance/config/ConfigForm.form" />
+      <option value="$PROJECT_DIR$/src/test/java/com/weng/ros_first/code_glance/render/FoldsTest.kt" />
+      <option value="$PROJECT_DIR$/src/test/java/com/weng/ros_first/code_glance/render/CharacterWeightTest.kt" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance/config/ConfigService.kt" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance/config/ConfigEntry.kt" />
+      <option value="$PROJECT_DIR$/src/test/java/com/weng/ros_first/code_glance/render/TaskRunnerTest.kt" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance/CodeGlancePlugin.kt" />
+      <option value="$PROJECT_DIR$/src/main/resources/plugin_xml/code_glance_pro.xml" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/config/CodeGlanceConfigService.kt" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/util/CodeGlanceBundle.kt" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/config/CodeGlanceConfig.kt" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/tool_wnd/MyToolWindow.form" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/config/CodeGlanceConfigurable.kt" />
+      <option value="$PROJECT_DIR$/src/main/resources/plugin_xml/ros_integrate.xml" />
+      <option value="$PROJECT_DIR$/src/main/resources/plugin_xml/ros_first_main.xml" />
+      <option value="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkt/ROSPktRefactoringSupportProvider.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/settings/ROSSettings.java" />
+      <option value="$PROJECT_DIR$/gradle.properties" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/ROSIcons.java" />
+      <option value="$PROJECT_DIR$/src/main/resources/ros_integrate/meta_Inf/plugin.xml" />
+      <option value="$PROJECT_DIR$/src/main/resources/ros_integrate/pluginXml/ROSPluginExtensions.xml" />
+      <option value="$PROJECT_DIR$/change_log.html" />
+      <option value="$PROJECT_DIR$/src/main/resources/ros_integrate/pluginXml/CMakeExtensions.xml" />
+      <option value="$PROJECT_DIR$/build.gradle.kts" />
+      <option value="$PROJECT_DIR$/src/main/gen/com/weng/ros_first/ros_integrate/pkg/xml/condition/psi/ROSConditionTypes.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/xml/VersionRange.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/psi/impl/ROSPackageBase.java" />
+      <option value="$PROJECT_DIR$/readme.md" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/xml/ui/NewLicenseDialogue.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkt/dialog/NewROSMsgDialog.java" />
+      <option value="$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/settings/ROSSettingsPage.java" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="GitIgnore">
+      <summary usageCount="5" lastUsage="1662977040445" />
+    </language>
+    <language id="HTML">
+      <summary usageCount="4" lastUsage="1662976874930" />
+    </language>
+    <language id="JAVA">
+      <summary usageCount="186" lastUsage="1662979821101" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="21" lastUsage="1662977167048" />
+    </language>
+    <language id="Properties">
+      <summary usageCount="30" lastUsage="1662977016902" />
+    </language>
+    <language id="Python">
+      <summary usageCount="2" lastUsage="1662826890710" />
+    </language>
+    <language id="SVG">
+      <summary usageCount="10" lastUsage="1662977007985" />
+    </language>
+    <language id="TEXT">
+      <summary usageCount="4" lastUsage="1662970414811" />
+    </language>
+    <language id="XML">
+      <summary usageCount="78" lastUsage="1662979820891" />
+    </language>
+    <language id="kotlin">
+      <summary usageCount="202" lastUsage="1662977033591" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ros_first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros_first" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros_first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros_first" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros_first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros_first" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros_first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros_first" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros_first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros_first" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ros_first" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros_first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros_first" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ros_first" type="462c0819:PsiDirectoryNode" />
+              <item name="ros_integrate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ros_first" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ros_first" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ros_first" type="462c0819:PsiDirectoryNode" />
+              <item name="ros_integrate" type="462c0819:PsiDirectoryNode" />
+              <item name="buildtool" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ros_first" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ros_first" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Gradle.Run Plugin (启动另一个测试版本的IDEA)" executorId="Run" />
+      <element setting="Gradle.ros_first [buildPlugin]" executorId="Run" />
+      <element setting="Gradle.ros_first [build]" executorId="Run" />
+      <element setting="Gradle.ros_first [buildPlugin]" executorId="Debug" />
+      <element setting="Gradle.ros_first [buildSearchableOptions]" executorId="Run" />
+    </history>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="E:\Learns\Java\Projs\220904_clion_plugins\ros_first\" commandHistoryFileName="ros_first-history1" />
+    </option>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33988000" />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" show_stripe_button="false" weight="0.24916276" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Commit" order="2" />
+      <window_info id="Pull Requests" order="3" show_stripe_button="false" weight="0.32953784" />
+      <window_info id="Persistence" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="Learn" order="6" />
+      <window_info active="true" x="188" y="22" width="990" height="379" id="Run" internal_type="FLOATING" order="7" side_tool="true" type="FLOATING" weight="0.32885906" />
+      <window_info x="2053" y="447" width="1329" height="484" id="Version Control" internal_type="FLOATING" order="8" side_tool="true" type="FLOATING" weight="0.5543624" />
+      <window_info x="3330" y="110" width="379" height="588" id="Notifications" order="9" side_tool="true" type="FLOATING" weight="0.32977617" />
+      <window_info active="true" x="2239" y="499" width="907" height="337" id="Terminal" order="10" side_tool="true" type="FLOATING" weight="0.14445601" />
+      <window_info active="true" x="3302" y="236" width="327" height="460" id="Gradle" order="11" side_tool="true" type="FLOATING" weight="0.22774597" />
+      <window_info x="2758" y="641" width="487" height="401" id="Dependencies" order="12" show_stripe_button="false" side_tool="true" type="FLOATING" weight="0.14705881" />
+      <window_info active="true" x="164" y="175" width="1225" height="520" id="Build" order="13" side_tool="true" type="FLOATING" weight="0.22774597" />
+      <window_info content_ui="combo" id="Project" order="14" sideWeight="0.5005123" visible="true" weight="0.21108797" />
+      <window_info active="true" x="1043" y="45" width="349" height="699" id="Bookmarks" order="15" type="FLOATING" weight="0.32977617" />
+      <window_info id="Problems View" order="16" sideWeight="0.4994877" side_tool="true" weight="0.21297269" />
+      <window_info anchor="bottom" id="Dependency Checker" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" show_stripe_button="false" weight="0.24765868" />
+      <window_info anchor="bottom" id="TODO" order="2" show_stripe_button="false" weight="0.32885906" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" show_stripe_button="false" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" x="782" y="289" width="732" height="245" id="Spring" internal_type="FLOATING" order="4" type="FLOATING" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.47785234" />
+      <window_info anchor="bottom" id="Eval Reset" order="6" visible="true" weight="0.3261745" />
+      <window_info anchor="bottom" id="File Transfer" order="7" />
+      <window_info anchor="bottom" id="Dart Analysis" order="8" />
+      <window_info anchor="bottom" id="Profiler" order="9" show_stripe_button="false" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="DeepCode" order="11" />
+      <window_info anchor="bottom" id="Duplicates" order="12" weight="0.3261745" />
+      <window_info anchor="bottom" id="SQL Android" order="13" />
+      <window_info anchor="bottom" x="389" y="124" width="986" height="318" id="Debug" internal_type="FLOATING" order="14" show_stripe_button="false" type="FLOATING" weight="0.4" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="15" />
+      <window_info anchor="bottom" id="Pylint" order="16" show_stripe_button="false" weight="0.32885906" />
+      <window_info anchor="bottom" id="Flow" order="17" />
+      <window_info anchor="bottom" id="TypeScript" order="18" />
+      <window_info anchor="bottom" id="Cvs" order="19" weight="0.25" />
+      <window_info anchor="bottom" id="Project Problems" order="20" />
+      <window_info anchor="bottom" id="Database Changes" order="21" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Endpoints" order="22" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Mypy" order="23" show_stripe_button="false" weight="0.32885906" />
+      <window_info anchor="bottom" id="Services" order="24" show_stripe_button="false" weight="0.32885906" />
+      <window_info anchor="bottom" id="Inspection" order="25" weight="0.4" />
+      <window_info anchor="bottom" id="Python Packages" order="26" show_stripe_button="false" />
+      <window_info anchor="right" id="String Manipulation" />
+      <window_info anchor="right" id="documentation.v2" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Codota" order="3" show_stripe_button="false" weight="0.32953784" />
+      <window_info anchor="right" id="Multi Preview" order="4" />
+      <window_info anchor="right" id="Layout Validation" order="5" />
+      <window_info anchor="right" id="Ant" order="6" show_stripe_button="false" weight="0.32953784" />
+      <window_info anchor="right" id="Json Parser" order="7" show_stripe_button="false" weight="0.32886806" />
+      <window_info anchor="right" id="Bean Validation" order="8" show_stripe_button="false" weight="0.32953784" />
+      <window_info anchor="right" id="make" order="9" show_stripe_button="false" weight="0.32953784" />
+      <window_info anchor="right" id="SciView" order="10" show_stripe_button="false" weight="0.32953784" />
+      <window_info anchor="right" id="Database" order="11" show_stripe_button="false" weight="0.11998959" />
+      <window_info anchor="right" id="Git Scope" order="12" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="WENG Sample" order="13" show_stripe_button="false" side_tool="true" weight="0.3301887" />
+      <window_info anchor="right" id="Remote Host" order="14" show_stripe_button="false" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" show_stripe_button="false" weight="0.24916276" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Commit" order="2" />
+      <window_info id="Pull Requests" order="3" show_stripe_button="false" weight="0.32953784" />
+      <window_info id="Persistence" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info id="Learn" order="6" />
+      <window_info active="true" x="188" y="22" width="990" height="377" id="Run" internal_type="FLOATING" order="7" side_tool="true" type="FLOATING" visible="true" weight="0.32885906" />
+      <window_info active="true" x="2053" y="447" width="1329" height="484" id="Version Control" internal_type="FLOATING" order="8" side_tool="true" type="FLOATING" weight="0.5543624" />
+      <window_info active="true" x="3330" y="110" width="379" height="588" id="Notifications" order="9" side_tool="true" type="FLOATING" weight="0.32977617" />
+      <window_info active="true" x="2239" y="499" width="907" height="337" id="Terminal" order="10" side_tool="true" type="FLOATING" weight="0.14445601" />
+      <window_info active="true" x="3302" y="236" width="327" height="460" id="Gradle" order="11" side_tool="true" type="FLOATING" weight="0.22774597" />
+      <window_info active="true" x="2758" y="641" width="487" height="401" id="Dependencies" order="12" side_tool="true" type="FLOATING" weight="0.14705881" />
+      <window_info active="true" x="321" y="93" width="902" height="520" id="Build" order="13" side_tool="true" type="FLOATING" weight="0.22774597" />
+      <window_info content_ui="combo" id="Project" order="14" visible="true" weight="0.14837185" />
+      <window_info active="true" x="714" y="14" width="349" height="699" id="Bookmarks" order="15" type="FLOATING" weight="0.32977617" />
+      <window_info anchor="bottom" id="Dependency Checker" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" show_stripe_button="false" weight="0.24765868" />
+      <window_info anchor="bottom" id="TODO" order="2" show_stripe_button="false" weight="0.32885906" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" show_stripe_button="false" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" x="782" y="289" width="732" height="245" id="Spring" internal_type="FLOATING" order="4" type="FLOATING" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" weight="0.47785234" />
+      <window_info anchor="bottom" id="Eval Reset" order="6" visible="true" weight="0.3261745" />
+      <window_info anchor="bottom" id="File Transfer" order="7" />
+      <window_info anchor="bottom" id="Dart Analysis" order="8" />
+      <window_info anchor="bottom" id="Profiler" order="9" show_stripe_button="false" weight="0.32885906" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="DeepCode" order="11" />
+      <window_info anchor="bottom" id="Duplicates" order="12" weight="0.3261745" />
+      <window_info anchor="bottom" id="SQL Android" order="13" />
+      <window_info anchor="bottom" id="Problems View" order="14" weight="0.32930368" />
+      <window_info anchor="bottom" x="389" y="124" width="986" height="318" id="Debug" internal_type="FLOATING" order="15" show_stripe_button="false" type="FLOATING" weight="0.4" />
+      <window_info anchor="bottom" id="Internal Method Tracing" order="16" />
+      <window_info anchor="bottom" id="Pylint" order="17" show_stripe_button="false" weight="0.32885906" />
+      <window_info anchor="bottom" id="Flow" order="18" />
+      <window_info anchor="bottom" id="TypeScript" order="19" />
+      <window_info anchor="bottom" id="Cvs" order="20" weight="0.25" />
+      <window_info anchor="bottom" id="Project Problems" order="21" />
+      <window_info anchor="bottom" id="Database Changes" order="22" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Endpoints" order="23" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Mypy" order="24" show_stripe_button="false" weight="0.32885906" />
+      <window_info anchor="bottom" id="Services" order="25" show_stripe_button="false" weight="0.32885906" />
+      <window_info anchor="bottom" id="Inspection" order="26" weight="0.4" />
+      <window_info anchor="bottom" id="Python Packages" order="27" show_stripe_button="false" />
+      <window_info anchor="right" id="String Manipulation" />
+      <window_info anchor="right" id="documentation.v2" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Codota" order="3" show_stripe_button="false" weight="0.32953784" />
+      <window_info anchor="right" id="Multi Preview" order="4" />
+      <window_info anchor="right" id="Layout Validation" order="5" />
+      <window_info anchor="right" id="Ant" order="6" show_stripe_button="false" weight="0.32953784" />
+      <window_info anchor="right" id="Json Parser" order="7" show_stripe_button="false" weight="0.32886806" />
+      <window_info anchor="right" id="Bean Validation" order="8" show_stripe_button="false" weight="0.32953784" />
+      <window_info anchor="right" id="make" order="9" show_stripe_button="false" weight="0.32953784" />
+      <window_info anchor="right" id="SciView" order="10" show_stripe_button="false" weight="0.32953784" />
+      <window_info anchor="right" id="Database" order="11" show_stripe_button="false" weight="0.11998959" />
+      <window_info anchor="right" id="Git Scope" order="12" show_stripe_button="false" side_tool="true" />
+      <window_info anchor="right" id="WENG Sample" order="13" show_stripe_button="false" side_tool="true" weight="0.3301887" />
+      <window_info anchor="right" id="Remote Host" order="14" show_stripe_button="false" />
+    </layout-to-restore>
+    <recentWindows>
+      <value>Gradle</value>
+      <value>Bookmarks</value>
+      <value>Run</value>
+      <value>Project</value>
+      <value>Problems View</value>
+      <value>Notifications</value>
+      <value>Version Control</value>
+      <value>Find</value>
+      <value>Build</value>
+      <value>Dependencies</value>
+      <value>Terminal</value>
+      <value>Debug</value>
+      <value>WENG Sample</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="370" y="0" key="#Project_Structure" timestamp="1662814688993">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="370" y="0" key="#Project_Structure/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662814688993" />
+    <state x="2350" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1662965646212">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="2350" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662965646212" />
+    <state x="762" y="71" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1662972880528">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="762" y="71" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662972880528" />
+    <state x="662" y="172" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1662969929465">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="662" y="172" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662969929465" />
+    <state x="2467" y="57" key="CommitChangelistDialog2" timestamp="1662977114954">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="438" y="0" key="CommitChangelistDialog2/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662825077072" />
+    <state x="2467" y="57" key="CommitChangelistDialog2/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662977114954" />
+    <state x="710" y="308" key="DetectedRootsChooserDialog" timestamp="1662972894550">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="710" y="308" key="DetectedRootsChooserDialog/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662972894550" />
+    <state x="2638" y="231" width="799" height="518" key="FileChooserDialogImpl" timestamp="1662976531071">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="574" y="185" key="FileChooserDialogImpl/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662826200722" />
+    <state x="2638" y="231" width="799" height="518" key="FileChooserDialogImpl/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662976531071" />
+    <state width="984" height="345" key="GridCell.Tab.0.bottom" timestamp="1662980335539">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state width="875" height="343" key="GridCell.Tab.0.bottom/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662911543753" />
+    <state width="984" height="345" key="GridCell.Tab.0.bottom/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662980335539" />
+    <state width="984" height="345" key="GridCell.Tab.0.center" timestamp="1662980335539">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state width="875" height="343" key="GridCell.Tab.0.center/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662911543753" />
+    <state width="984" height="345" key="GridCell.Tab.0.center/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662980335539" />
+    <state width="984" height="345" key="GridCell.Tab.0.left" timestamp="1662980335538">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state width="875" height="343" key="GridCell.Tab.0.left/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662911543753" />
+    <state width="984" height="345" key="GridCell.Tab.0.left/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662980335538" />
+    <state width="984" height="345" key="GridCell.Tab.0.right" timestamp="1662980335539">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state width="875" height="343" key="GridCell.Tab.0.right/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662911543753" />
+    <state width="984" height="345" key="GridCell.Tab.0.right/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662980335539" />
+    <state width="984" height="345" key="GridCell.Tab.1.bottom" timestamp="1662980335539">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state width="875" height="343" key="GridCell.Tab.1.bottom/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662823281356" />
+    <state width="984" height="345" key="GridCell.Tab.1.bottom/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662980335539" />
+    <state width="984" height="345" key="GridCell.Tab.1.center" timestamp="1662980335539">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state width="875" height="343" key="GridCell.Tab.1.center/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662823281356" />
+    <state width="984" height="345" key="GridCell.Tab.1.center/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662980335539" />
+    <state width="984" height="345" key="GridCell.Tab.1.left" timestamp="1662980335539">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state width="875" height="343" key="GridCell.Tab.1.left/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662823281356" />
+    <state width="984" height="345" key="GridCell.Tab.1.left/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662980335539" />
+    <state width="984" height="345" key="GridCell.Tab.1.right" timestamp="1662980335539">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state width="875" height="343" key="GridCell.Tab.1.right/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662823281356" />
+    <state width="984" height="345" key="GridCell.Tab.1.right/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662980335539" />
+    <state width="980" height="284" key="GridCell.Tab.2.bottom" timestamp="1662973520732">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state width="980" height="284" key="GridCell.Tab.2.bottom/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662973520732" />
+    <state width="980" height="284" key="GridCell.Tab.2.center" timestamp="1662973520732">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state width="980" height="284" key="GridCell.Tab.2.center/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662973520732" />
+    <state width="980" height="284" key="GridCell.Tab.2.left" timestamp="1662973520732">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state width="980" height="284" key="GridCell.Tab.2.left/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662973520732" />
+    <state width="980" height="284" key="GridCell.Tab.2.right" timestamp="1662973520732">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state width="980" height="284" key="GridCell.Tab.2.right/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662973520732" />
+    <state x="2343" y="221" key="MergeDialog" timestamp="1662965722493">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="2343" y="221" key="MergeDialog/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662965722493" />
+    <state x="2520" y="190" key="NewModule_or_Project.wizard" timestamp="1662821534449">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="2520" y="190" key="NewModule_or_Project.wizard/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662821534449" />
+    <state x="2472" y="181" width="816" height="687" key="REMOTE_DEVELOPMENT_CONNECTION" timestamp="1662970156977">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="2472" y="181" width="816" height="687" key="REMOTE_DEVELOPMENT_CONNECTION/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662970156977" />
+    <state x="2585" y="185" key="RollbackChangesDialog" timestamp="1662965914027">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="2585" y="185" key="RollbackChangesDialog/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662965914027" />
+    <state x="2480" y="208" width="1040" height="834" key="SettingsEditor" timestamp="1662976538963">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="352" y="0" key="SettingsEditor/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662823283557" />
+    <state x="2480" y="208" width="1040" height="834" key="SettingsEditor/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662976538963" />
+    <state x="2472" y="182" key="TargetEnvironmentsConfigurable.size" timestamp="1662964315646">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="2472" y="182" key="TargetEnvironmentsConfigurable.size/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662964315646" />
+    <state x="2726" y="435" key="VCS.ChangelistChooser" timestamp="1662964450823">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="2726" y="435" key="VCS.ChangelistChooser/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662964450823" />
+    <state x="2472" y="257" key="Vcs.Push.Dialog.v2" timestamp="1662977143819">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="442" y="206" key="Vcs.Push.Dialog.v2/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662824534729" />
+    <state x="2472" y="257" key="Vcs.Push.Dialog.v2/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662977143819" />
+    <state x="2012" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1662820897517">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="2012" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662820897517" />
+    <state x="2012" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1662820897517">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="2012" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662820897517" />
+    <state x="2590" y="10" width="864" height="829" key="find.popup" timestamp="1662977681172">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="536" y="219" width="657" height="566" key="find.popup/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662910462098" />
+    <state x="2590" y="10" width="864" height="829" key="find.popup/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662977681172" />
+    <state x="2573" y="120" width="491" height="657" key="git4idea.branch.GitSmartOperationDialog" timestamp="1662965715754">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="522" y="96" width="488" height="656" key="git4idea.branch.GitSmartOperationDialog/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662824583770" />
+    <state x="2573" y="120" width="491" height="657" key="git4idea.branch.GitSmartOperationDialog/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662965715754" />
+    <state x="2675" y="423" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1662966641625">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="604" y="339" key="git4idea.remote.GitConfigureRemotesDialog/1920.0.1920.1042/0.0.1536.834@0.0.1536.834" timestamp="1662824454583" />
+    <state x="2675" y="423" key="git4idea.remote.GitConfigureRemotesDialog/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662966641625" />
+    <state x="2480" y="174" width="800" height="700" key="new project wizard" timestamp="1662821415844">
+      <screen x="1920" y="0" width="1920" height="1042" />
+    </state>
+    <state x="2480" y="174" width="800" height="700" key="new project wizard/1920.0.1920.1042/0.0.1536.834@1920.0.1920.1042" timestamp="1662821415844" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/settings/AppSettingsConfigurable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/settings/AppSettingsState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/settings/ROSSettingsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ros_integrate/pluginXml/CMakeExtensions.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="86" selection-start-line="5" selection-start-column="86" selection-end-line="5" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ros_integrate/pluginXml/dependencies.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ros_integrate/pluginXml/generalExtensions.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ros_integrate/pluginXml/ROSPackageExtensions.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ros_integrate/pluginXml/ROSPkgXmlExtensions.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ros_integrate/pluginXml/ROSPktExtensions.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ros_integrate/pluginXml/ROSPluginExtensions.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/gen/com/weng/ros_first/ros_integrate/pkt/lang/ROSPktLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/gen/com/weng/ros_first/ros_integrate/cmake/parser/CMakeParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/ROSIcons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/ROSBundledDictionaryProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Android/_LIBS/gradle_user_home/caches/transforms-3/0c3f317e22f02981dd8e3ff123c52645/transformed/unzipped-distribution/gradle-7.5/subprojects/plugins/src/main/java/org/gradle/api/tasks/SourceSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="186" column="14" selection-start-line="186" selection-start-column="14" selection-end-line="186" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../Android/_LIBS/gradle_user_home/caches/transforms-3/0c3f317e22f02981dd8e3ff123c52645/transformed/unzipped-distribution/gradle-7.5/subprojects/core-api/src/main/java/org/gradle/api/file/SourceDirectorySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="61" column="23" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/gen/com/weng/ros_first/ros_integrate/cmake/lang/CmakeLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/gen/com/weng/ros_first/ros_integrate/pkg/xml/condition/lang/ROSConditionLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/gen/com/weng/ros_first/ros_integrate/pkg/xml/condition/parser/ROSConditionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/gen/com/weng/ros_first/ros_integrate/pkg/xml/condition/psi/ROSConditionItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/gen/com/weng/ros_first/ros_integrate/pkg/xml/condition/psi/ROSConditionLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/gen/com/weng/ros_first/ros_integrate/pkg/xml/condition/psi/ROSConditionToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/gen/com/weng/ros_first/ros_integrate/pkg/xml/condition/psi/ROSConditionOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/gen/com/weng/ros_first/ros_integrate/pkg/xml/condition/psi/ROSConditionTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/gen/com/weng/ros_first/ros_integrate/pkg/xml/condition/psi/ROSConditionVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/change_log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ros_integrate/meta_Inf/pluginIcon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ros_integrate/meta_Inf/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ros_integrate/licenses.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ros_integrate/ros/integrate/ros.dic">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ros_integrate/defaults.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tool_wnd/Time-zone-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tool_wnd/Calendar-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/tool_wnd/Time-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/xml/VersionRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2520">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/psi/impl/ROSPackageBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1041">
+          <caret line="97" column="76" lean-forward="true" selection-start-line="97" selection-start-column="76" selection-end-line="97" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3519#3520#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SHOW_EDITOR" is_vertical_split="false">
+          <first_editor relative-caret-position="456">
+            <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Pros/IDE/Java/jdk-11.0.15.1/lib/src.zip!/java.desktop/javax/swing/JComboBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="601" column="18" selection-start-line="601" selection-start-column="18" selection-end-line="601" selection-end-column="18" />
+          <folding>
+            <element signature="e#20690#20691#0" expanded="true" />
+            <element signature="e#20740#20741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/xml/ui/NewLicenseDialogue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="113" column="59" selection-start-line="113" selection-start-column="37" selection-end-line="113" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkg/xml/intention/AddLicenseFileFix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../Android/_LIBS/gradle_user_home/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/4aa17d162c81293d88aa56a54f655e784a8ba8ab/ideaIC-2022.1-sources.jar!/com/intellij/execution/ui/AlternativeJREPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/settings/ROSSettingsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3264">
+          <caret line="163" column="15" selection-start-line="163" selection-start-column="15" selection-end-line="163" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../Android/_LIBS/gradle_user_home/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/4aa17d162c81293d88aa56a54f655e784a8ba8ab/ideaIC-2022.1-sources.jar!/com/intellij/openapi/options/Configurable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3585">
+          <caret line="214" column="28" selection-start-line="214" selection-start-column="18" selection-end-line="214" selection-end-column="28" />
+          <folding>
+            <element signature="e#12447#12448#0" expanded="true" />
+            <element signature="e#12517#12518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../Android/_LIBS/gradle_user_home/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/4aa17d162c81293d88aa56a54f655e784a8ba8ab/ideaIC-2022.1-sources.jar!/com/intellij/openapi/ui/ComboBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/pkt/dialog/NewROSMsgDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2664">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weng/ros_first/ros_integrate/settings/ROSSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5808">
+          <caret line="296" column="30" selection-start-line="296" selection-start-column="30" selection-end-line="296" selection-end-column="30" />
+          <folding>
+            <element signature="e#9747#9748#0" expanded="true" />
+            <element signature="e#9791#9792#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../Android/_LIBS/gradle_user_home/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2022.1/4aa17d162c81293d88aa56a54f655e784a8ba8ab/ideaIC-2022.1-sources.jar!/com/intellij/openapi/ui/TextComponentAccessors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="79" column="52" lean-forward="true" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin (ros_first.main)|Kotlin</last-edited>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI" />
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin SDK</last-edited>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ros_first</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jflex-1.7.0-2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Git Scope</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+          <order>
+            <scope name="Git Scope" />
+          </order>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
