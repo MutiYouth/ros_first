@@ -6,6 +6,7 @@ import com.intellij.openapi.project.ProjectManagerListener
 
 class CodeGlancePlugin : ProjectManagerListener {
     override fun projectOpened(project: Project) {
-        project.messageBus.connect().subscribe(FileEditorManagerListener.FILE_EDITOR_MANAGER, EditorPanelInjector(project))
+        project.messageBus.connect()
+            .subscribe(FileEditorManagerListener.FILE_EDITOR_MANAGER, EditorPanelInjector(project))
     }
 }

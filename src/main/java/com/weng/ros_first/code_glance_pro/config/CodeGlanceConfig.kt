@@ -33,7 +33,7 @@ class CodeGlanceConfig {
 val SettingsChangePublisher = ApplicationManager.getApplication().messageBus.syncPublisher(SettingsChangeListener.TOPIC)
 
 interface SettingsChangeListener {
-    fun onHoveringOriginalScrollBarChanged(value:Boolean) {}
+    fun onHoveringOriginalScrollBarChanged(value: Boolean) {}
 
     fun refresh(directUpdate: Boolean = false, updateScroll: Boolean = false) {}
 

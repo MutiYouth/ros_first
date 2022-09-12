@@ -40,14 +40,14 @@ class CustomScrollBarPopup(private val glancePanel: GlancePanel) : PopupHandler(
                     config.hoveringToShowScrollBar = selected
                 }
             }),
-            object : DumbAwareToggleAction(message("popup.showFullLineHighlight")){
+            object : DumbAwareToggleAction(message("popup.showFullLineHighlight")) {
                 override fun isSelected(e: AnActionEvent): Boolean = config.showFullLineHighlight
 
                 override fun setSelected(e: AnActionEvent, state: Boolean) {
                     config.showFullLineHighlight = state
                 }
             },
-            object : DumbAwareToggleAction(message("popup.autoCalculateWidth")){
+            object : DumbAwareToggleAction(message("popup.autoCalculateWidth")) {
                 override fun isSelected(e: AnActionEvent): Boolean = config.autoCalWidthInSplitterMode
 
                 override fun setSelected(e: AnActionEvent, state: Boolean) {
@@ -69,7 +69,8 @@ class CustomScrollBarPopup(private val glancePanel: GlancePanel) : PopupHandler(
             actionGroup.addSeparator()
             actionGroup.add(createGotoGroup())
             actionGroup.addSeparator()
-            actionGroup.add(object : DumbAwareAction(EditorBundle.messagePointer("customize.highlighting.level.menu.item")) {
+            actionGroup.add(object :
+                DumbAwareAction(EditorBundle.messagePointer("customize.highlighting.level.menu.item")) {
                 override fun actionPerformed(e: AnActionEvent) {
                     val popup = getConfigureHighlightingLevelPopup(e.dataContext)
                     popup?.show(RelativePoint(comp!!, Point(x, y)))
@@ -85,9 +86,12 @@ class CustomScrollBarPopup(private val glancePanel: GlancePanel) : PopupHandler(
                 })
             }
         }
-        val menu = ActionManager.getInstance().createActionPopupMenu(ActionPlaces.RIGHT_EDITOR_GUTTER_POPUP, actionGroup).component
-        menu.addPopupMenuListener(object :PopupMenuListenerAdapter(){
-            override fun popupMenuWillBecomeVisible(e: PopupMenuEvent) { isVisible = true }
+        val menu = ActionManager.getInstance()
+            .createActionPopupMenu(ActionPlaces.RIGHT_EDITOR_GUTTER_POPUP, actionGroup).component
+        menu.addPopupMenuListener(object : PopupMenuListenerAdapter() {
+            override fun popupMenuWillBecomeVisible(e: PopupMenuEvent) {
+                isVisible = true
+            }
 
             override fun popupMenuWillBecomeInvisible(e: PopupMenuEvent) = hideRequest()
 
@@ -98,10 +102,10 @@ class CustomScrollBarPopup(private val glancePanel: GlancePanel) : PopupHandler(
                 glancePanel.hideScrollBarListener.hideGlanceRequest()
             }
         })
-        menu.show(comp,x,y)
+        menu.show(comp, x, y)
     }
 
-    private companion object{
+    private companion object {
         fun createGotoGroup(): DefaultActionGroup {
             val shortcut = KeymapUtil.getPrimaryShortcut("GotoNextError")
             val shortcutText = if (shortcut != null) " (" + KeymapUtil.getShortcutText(shortcut) + ")" else ""
@@ -132,5 +136,5 @@ class CustomScrollBarPopup(private val glancePanel: GlancePanel) : PopupHandler(
         }
     }
 
-    private class DumbAwareToggleOptionAction(option:Option):ToggleOptionAction(option),DumbAware
+    private class DumbAwareToggleOptionAction(option: Option) : ToggleOptionAction(option), DumbAware
 }

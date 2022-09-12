@@ -9,13 +9,15 @@ import com.weng.ros_first.code_glance_pro.panel.vcs.MyVcsPanel
 import java.awt.event.ComponentAdapter
 import java.awt.event.ComponentEvent
 
-class MyVcsListener(private val myVcsPanel: MyVcsPanel) : ComponentAdapter(), VisibleAreaListener, MarkupModelListener, Disposable {
+class MyVcsListener(private val myVcsPanel: MyVcsPanel) : ComponentAdapter(), VisibleAreaListener, MarkupModelListener,
+    Disposable {
     init {
         val editor = myVcsPanel.glancePanel.editor
         editor.contentComponent.addComponentListener(this)
         editor.scrollingModel.addVisibleAreaListener(this, this)
         editor.filteredDocumentMarkupModel.addMarkupModelListener(this, this)
     }
+
     /** ComponentAdapter */
     override fun componentResized(componentEvent: ComponentEvent?) = repaint()
 
@@ -29,8 +31,9 @@ class MyVcsListener(private val myVcsPanel: MyVcsPanel) : ComponentAdapter(), Vi
 
     private fun repaint(highlighter: RangeHighlighterEx? = null) {
         val editor = myVcsPanel.glancePanel.editor
-        if(myVcsPanel.isVisible && (highlighter == null ||
-                    (highlighter.isThinErrorStripeMark && highlighter.getErrorStripeMarkColor(editor.colorsScheme) != null))) myVcsPanel.repaint()
+        if (myVcsPanel.isVisible && (highlighter == null ||
+                    (highlighter.isThinErrorStripeMark && highlighter.getErrorStripeMarkColor(editor.colorsScheme) != null))
+        ) myVcsPanel.repaint()
     }
 
     override fun dispose() {

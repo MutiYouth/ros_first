@@ -8,12 +8,12 @@ import com.weng.ros_first.code_glance_pro.util.message
 import org.jetbrains.annotations.Nls
 
 class GlanceVisibleWidgetFactory : StatusBarEditorBasedWidgetFactory() {
-	override fun getId(): String = GlanceToggleVisibleWidgetPanel.ID
+    override fun getId(): String = GlanceToggleVisibleWidgetPanel.ID
 
-	@Nls
-	override fun getDisplayName(): String = message("glance.widget")
+    @Nls
+    override fun getDisplayName(): String = message("glance.widget")
 
-	override fun createWidget(project: Project): StatusBarWidget = GlanceToggleVisibleWidgetPanel(project)
+    override fun createWidget(project: Project): StatusBarWidget = GlanceToggleVisibleWidgetPanel(project)
 
-	override fun disposeWidget(widget: StatusBarWidget) = Disposer.dispose(widget)
+    override fun disposeWidget(widget: StatusBarWidget) = Disposer.dispose(widget)
 }

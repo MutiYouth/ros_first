@@ -19,7 +19,8 @@ class CodeGlanceConfigService : PersistentStateComponent<CodeGlanceConfig> {
         XmlSerializerUtil.copyBean(config, this.config)
     }
 
-    companion object{
-        val ConfigInstance: CodeGlanceConfigService = ApplicationManager.getApplication().getService(CodeGlanceConfigService::class.java)
+    companion object {
+        val ConfigInstance: CodeGlanceConfigService =
+            ApplicationManager.getApplication().getService(CodeGlanceConfigService::class.java)
     }
 }

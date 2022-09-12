@@ -16,175 +16,183 @@ import com.weng.ros_first.code_glance_pro.panel.GlancePanel
 import java.awt.event.*
 
 class GlanceListener(private val glancePanel: GlancePanel) : ComponentAdapter(), FoldingListener, MarkupModelListener,
-	SettingsChangeListener, CaretListener, PrioritizedDocumentListener, VisibleAreaListener, SelectionListener,
-	HierarchyBoundsListener, HierarchyListener, SoftWrapChangeListener, InlayModel.Listener, Disposable {
-	private val editor = glancePanel.editor
-	private var softWrapEnabled = false
-	init {
-		glancePanel.addHierarchyListener(this)
-		glancePanel.addHierarchyBoundsListener(this)
-		editor.contentComponent.addComponentListener(this)
-		editor.document.addDocumentListener(this, glancePanel)
-		editor.selectionModel.addSelectionListener(this, glancePanel)
-		editor.scrollingModel.addVisibleAreaListener(this, glancePanel)
-		editor.foldingModel.addListener(this, glancePanel)
-		editor.inlayModel.addListener(this, glancePanel)
-		editor.softWrapModel.addSoftWrapChangeListener(this)
-		editor.caretModel.addCaretListener(this, glancePanel)
-		editor.markupModel.addMarkupModelListener(glancePanel, GlanceOtherListener(glancePanel))
-		editor.filteredDocumentMarkupModel.addMarkupModelListener(glancePanel, this)
-		ApplicationManager.getApplication().messageBus.connect(glancePanel).subscribe(SettingsChangeListener.TOPIC, this)
-	}
+    SettingsChangeListener, CaretListener, PrioritizedDocumentListener, VisibleAreaListener, SelectionListener,
+    HierarchyBoundsListener, HierarchyListener, SoftWrapChangeListener, InlayModel.Listener, Disposable {
+    private val editor = glancePanel.editor
+    private var softWrapEnabled = false
 
-	/** FoldingListener */
-	override fun onFoldProcessingEnd() {
-		if (editor.document.isInBulkUpdate) return
-		glancePanel.updateImage()
-	}
+    init {
+        glancePanel.addHierarchyListener(this)
+        glancePanel.addHierarchyBoundsListener(this)
+        editor.contentComponent.addComponentListener(this)
+        editor.document.addDocumentListener(this, glancePanel)
+        editor.selectionModel.addSelectionListener(this, glancePanel)
+        editor.scrollingModel.addVisibleAreaListener(this, glancePanel)
+        editor.foldingModel.addListener(this, glancePanel)
+        editor.inlayModel.addListener(this, glancePanel)
+        editor.softWrapModel.addSoftWrapChangeListener(this)
+        editor.caretModel.addCaretListener(this, glancePanel)
+        editor.markupModel.addMarkupModelListener(glancePanel, GlanceOtherListener(glancePanel))
+        editor.filteredDocumentMarkupModel.addMarkupModelListener(glancePanel, this)
+        ApplicationManager.getApplication().messageBus.connect(glancePanel)
+            .subscribe(SettingsChangeListener.TOPIC, this)
+    }
 
-	override fun onCustomFoldRegionPropertiesChange(region: CustomFoldRegion, flags: Int) {
-		if (flags and FoldingListener.ChangeFlags.HEIGHT_CHANGED != 0 &&
-			!editor.foldingModel.isInBatchFoldingOperation
-		) repaintOrRequest(true)
-	}
+    /** FoldingListener */
+    override fun onFoldProcessingEnd() {
+        if (editor.document.isInBulkUpdate) return
+        glancePanel.updateImage()
+    }
 
-	/** InlayModel.Listener */
-	override fun onAdded(inlay: Inlay<*>) {
-		if (editor.document.isInBulkUpdate || editor.inlayModel.isInBatchMode
-			|| inlay.placement != Placement.ABOVE_LINE
-		) return
-		repaintOrRequest(true)
-	}
+    override fun onCustomFoldRegionPropertiesChange(region: CustomFoldRegion, flags: Int) {
+        if (flags and FoldingListener.ChangeFlags.HEIGHT_CHANGED != 0 &&
+            !editor.foldingModel.isInBatchFoldingOperation
+        ) repaintOrRequest(true)
+    }
 
-	override fun onRemoved(inlay: Inlay<*>) {
-		if (editor.document.isInBulkUpdate || editor.inlayModel.isInBatchMode
-			|| inlay.placement != Placement.ABOVE_LINE
-		) return
-		repaintOrRequest(true)
-	}
+    /** InlayModel.Listener */
+    override fun onAdded(inlay: Inlay<*>) {
+        if (editor.document.isInBulkUpdate || editor.inlayModel.isInBatchMode
+            || inlay.placement != Placement.ABOVE_LINE
+        ) return
+        repaintOrRequest(true)
+    }
 
-	override fun onUpdated(inlay: Inlay<*>, changeFlags: Int) {
-		if (editor.document.isInBulkUpdate || editor.inlayModel.isInBatchMode ||
-			inlay.placement != Placement.ABOVE_LINE || changeFlags and InlayModel.ChangeFlags.HEIGHT_CHANGED == 0
-		) return
-		repaintOrRequest(true)
-	}
+    override fun onRemoved(inlay: Inlay<*>) {
+        if (editor.document.isInBulkUpdate || editor.inlayModel.isInBatchMode
+            || inlay.placement != Placement.ABOVE_LINE
+        ) return
+        repaintOrRequest(true)
+    }
 
-	override fun onBatchModeFinish(editor: Editor) {
-		if (editor.document.isInBulkUpdate) return
-		glancePanel.updateImage()
-	}
+    override fun onUpdated(inlay: Inlay<*>, changeFlags: Int) {
+        if (editor.document.isInBulkUpdate || editor.inlayModel.isInBatchMode ||
+            inlay.placement != Placement.ABOVE_LINE || changeFlags and InlayModel.ChangeFlags.HEIGHT_CHANGED == 0
+        ) return
+        repaintOrRequest(true)
+    }
 
-	/** SoftWrapChangeListener */
-	override fun softWrapsChanged() {
-		val enabled = editor.softWrapModel.isSoftWrappingEnabled
-		if (enabled && !softWrapEnabled) {
-			softWrapEnabled = true
-			glancePanel.updateImage()
-		} else if (!enabled && softWrapEnabled) {
-			softWrapEnabled = false
-			glancePanel.updateImage()
-		}
-	}
+    override fun onBatchModeFinish(editor: Editor) {
+        if (editor.document.isInBulkUpdate) return
+        glancePanel.updateImage()
+    }
 
-	override fun recalculationEnds() = Unit
+    /** SoftWrapChangeListener */
+    override fun softWrapsChanged() {
+        val enabled = editor.softWrapModel.isSoftWrappingEnabled
+        if (enabled && !softWrapEnabled) {
+            softWrapEnabled = true
+            glancePanel.updateImage()
+        } else if (!enabled && softWrapEnabled) {
+            softWrapEnabled = false
+            glancePanel.updateImage()
+        }
+    }
 
-	/** MarkupModelListener */
-	override fun afterAdded(highlighter: RangeHighlighterEx) =
-		updateRangeHighlight(highlighter)
+    override fun recalculationEnds() = Unit
 
-	override fun beforeRemoved(highlighter: RangeHighlighterEx) =
-		updateRangeHighlight(highlighter)
+    /** MarkupModelListener */
+    override fun afterAdded(highlighter: RangeHighlighterEx) =
+        updateRangeHighlight(highlighter)
 
-	private fun updateRangeHighlight(highlighter: RangeHighlighterEx) {
-		//如果开启隐藏滚动条则忽略Vcs高亮
-		if (editor.document.isInBulkUpdate || editor.inlayModel.isInBatchMode
-			|| (glancePanel.config.hideOriginalScrollBar && highlighter.isThinErrorStripeMark)) return
-		val textAttributes = highlighter.getTextAttributes(editor.colorsScheme)
-		if(EditorUtil.attributesImpactForegroundColor(textAttributes)) {
-			repaintOrRequest(true)
-		} else if(highlighter.getErrorStripeMarkColor(editor.colorsScheme) != null){
-			repaintOrRequest()
-		}
-	}
+    override fun beforeRemoved(highlighter: RangeHighlighterEx) =
+        updateRangeHighlight(highlighter)
 
-	/** CaretListener */
-	override fun caretPositionChanged(event: CaretEvent) = repaintOrRequest()
+    private fun updateRangeHighlight(highlighter: RangeHighlighterEx) {
+        // 如果开启隐藏滚动条则忽略Vcs高亮
+        if (editor.document.isInBulkUpdate || editor.inlayModel.isInBatchMode
+            || (glancePanel.config.hideOriginalScrollBar && highlighter.isThinErrorStripeMark)
+        ) return
+        val textAttributes = highlighter.getTextAttributes(editor.colorsScheme)
+        if (EditorUtil.attributesImpactForegroundColor(textAttributes)) {
+            repaintOrRequest(true)
+        } else if (highlighter.getErrorStripeMarkColor(editor.colorsScheme) != null) {
+            repaintOrRequest()
+        }
+    }
 
-	override fun caretAdded(event: CaretEvent) = repaintOrRequest()
+    /** CaretListener */
+    override fun caretPositionChanged(event: CaretEvent) = repaintOrRequest()
 
-	override fun caretRemoved(event: CaretEvent) = repaintOrRequest()
+    override fun caretAdded(event: CaretEvent) = repaintOrRequest()
 
-	/** SelectionListener */
-	override fun selectionChanged(e: SelectionEvent) = repaintOrRequest()
+    override fun caretRemoved(event: CaretEvent) = repaintOrRequest()
 
-	/** ComponentAdapter */
-	override fun componentResized(componentEvent: ComponentEvent) {
-		glancePanel.updateScrollState()
-		repaintOrRequest()
-	}
+    /** SelectionListener */
+    override fun selectionChanged(e: SelectionEvent) = repaintOrRequest()
 
-	/** PrioritizedDocumentListener */
-	override fun documentChanged(event: DocumentEvent) {
-		if (event.document.isInBulkUpdate) return
-		if (event.document.lineCount > glancePanel.config.moreThanLineDelay) {
-			repaintOrRequest(true)
-		} else glancePanel.updateImage()
-	}
+    /** ComponentAdapter */
+    override fun componentResized(componentEvent: ComponentEvent) {
+        glancePanel.updateScrollState()
+        repaintOrRequest()
+    }
 
-	override fun bulkUpdateFinished(document: Document) = glancePanel.updateImage()
+    /** PrioritizedDocumentListener */
+    override fun documentChanged(event: DocumentEvent) {
+        if (event.document.isInBulkUpdate) return
+        if (event.document.lineCount > glancePanel.config.moreThanLineDelay) {
+            repaintOrRequest(true)
+        } else glancePanel.updateImage()
+    }
 
-	override fun getPriority(): Int = 170 //EditorDocumentPriorities
+    override fun bulkUpdateFinished(document: Document) = glancePanel.updateImage()
 
-	/** SettingsChangeListener */
-	override fun onHoveringOriginalScrollBarChanged(value: Boolean) = if (value) glancePanel.hideScrollBarListener.addHideScrollBarListener()
-	else glancePanel.hideScrollBarListener.removeHideScrollBarListener()
+    override fun getPriority(): Int = 170 // EditorDocumentPriorities
 
-	override fun refresh(directUpdate: Boolean, updateScroll: Boolean) = glancePanel.refreshWithWidth(directUpdate, updateScroll)
+    /** SettingsChangeListener */
+    override fun onHoveringOriginalScrollBarChanged(value: Boolean) =
+        if (value) glancePanel.hideScrollBarListener.addHideScrollBarListener()
+        else glancePanel.hideScrollBarListener.removeHideScrollBarListener()
 
-	/** VisibleAreaListener */
-	override fun visibleAreaChanged(e: VisibleAreaEvent) {
-		glancePanel.scrollState.recomputeVisible(e.newRectangle)
-		repaintOrRequest()
-	}
+    override fun refresh(directUpdate: Boolean, updateScroll: Boolean) =
+        glancePanel.refreshWithWidth(directUpdate, updateScroll)
 
-	/** HierarchyBoundsListener */
-	override fun ancestorMoved(e: HierarchyEvent) {}
+    /** VisibleAreaListener */
+    override fun visibleAreaChanged(e: VisibleAreaEvent) {
+        glancePanel.scrollState.recomputeVisible(e.newRectangle)
+        repaintOrRequest()
+    }
 
-	override fun ancestorResized(e: HierarchyEvent) {
-		if (checkWithGlance {config.autoCalWidthInSplitterMode && !config.hoveringToShowScrollBar}) glancePanel.refreshWithWidth(false)
-	}
+    /** HierarchyBoundsListener */
+    override fun ancestorMoved(e: HierarchyEvent) {}
 
-	/** HierarchyListener */
-	override fun hierarchyChanged(e: HierarchyEvent) {
-		if (checkWithGlance {config.autoCalWidthInSplitterMode && !config.hoveringToShowScrollBar} &&
-			e.changeFlags and HierarchyEvent.PARENT_CHANGED.toLong() != 0L) glancePanel.refreshWithWidth(false)
-	}
+    override fun ancestorResized(e: HierarchyEvent) {
+        if (checkWithGlance { config.autoCalWidthInSplitterMode && !config.hoveringToShowScrollBar }) glancePanel.refreshWithWidth(
+            false
+        )
+    }
 
-	private fun repaintOrRequest(request: Boolean = false) {
-		if (checkWithGlance()) {
-			if (request) glancePanel.delayUpdateImage()
-			else glancePanel.repaint()
-		}
-	}
+    /** HierarchyListener */
+    override fun hierarchyChanged(e: HierarchyEvent) {
+        if (checkWithGlance { config.autoCalWidthInSplitterMode && !config.hoveringToShowScrollBar } &&
+            e.changeFlags and HierarchyEvent.PARENT_CHANGED.toLong() != 0L) glancePanel.refreshWithWidth(false)
+    }
 
-	private fun checkWithGlance(predicate:(GlancePanel.()->Boolean)? = null) = glancePanel.checkVisible() && (predicate == null || predicate.invoke(glancePanel))
+    private fun repaintOrRequest(request: Boolean = false) {
+        if (checkWithGlance()) {
+            if (request) glancePanel.delayUpdateImage()
+            else glancePanel.repaint()
+        }
+    }
 
-	override fun dispose() {
-		glancePanel.removeHierarchyListener(this)
-		glancePanel.removeHierarchyBoundsListener(this)
-		editor.contentComponent.removeComponentListener(this)
-	}
+    private fun checkWithGlance(predicate: (GlancePanel.() -> Boolean)? = null) =
+        glancePanel.checkVisible() && (predicate == null || predicate.invoke(glancePanel))
+
+    override fun dispose() {
+        glancePanel.removeHierarchyListener(this)
+        glancePanel.removeHierarchyBoundsListener(this)
+        editor.contentComponent.removeComponentListener(this)
+    }
 }
 
 class GlanceOtherListener(private val glancePanel: GlancePanel) : MarkupModelListener {
-	override fun afterAdded(highlighter: RangeHighlighterEx) = repaint(highlighter)
+    override fun afterAdded(highlighter: RangeHighlighterEx) = repaint(highlighter)
 
-	override fun beforeRemoved(highlighter: RangeHighlighterEx) = repaint(highlighter)
+    override fun beforeRemoved(highlighter: RangeHighlighterEx) = repaint(highlighter)
 
-	private fun repaint(highlighter: RangeHighlighterEx) {
-		if (highlighter.getErrorStripeMarkColor(glancePanel.editor.colorsScheme) != null && glancePanel.checkVisible()) {
-			glancePanel.repaint()
-		}
-	}
+    private fun repaint(highlighter: RangeHighlighterEx) {
+        if (highlighter.getErrorStripeMarkColor(glancePanel.editor.colorsScheme) != null && glancePanel.checkVisible()) {
+            glancePanel.repaint()
+        }
+    }
 }

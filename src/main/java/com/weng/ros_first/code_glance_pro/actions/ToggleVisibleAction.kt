@@ -23,14 +23,14 @@ class ToggleVisibleAction : DumbAwareToggleAction(), CustomComponentAction {
         }
 
     override fun isSelected(e: AnActionEvent): Boolean {
-        return e.applyToGlance{ isVisible }?:true
+        return e.applyToGlance { isVisible } ?: true
     }
 
     override fun setSelected(e: AnActionEvent, state: Boolean) {
-        e.applyToGlance{
-            if(!config.hoveringToShowScrollBar){
+        e.applyToGlance {
+            if (!config.hoveringToShowScrollBar) {
                 isVisible = state
-                if(isVisible) refresh(directUpdate = true)
+                if (isVisible) refresh(directUpdate = true)
                 changeOriginScrollBarWidth(isVisible)
             }
         }
@@ -40,15 +40,15 @@ class ToggleVisibleAction : DumbAwareToggleAction(), CustomComponentAction {
     override fun update(e: AnActionEvent) {
         super.update(e)
         val presentation = e.presentation
-        if(!isSelected(e)){
+        if (!isSelected(e)) {
             presentation.text = message("glance.visible.show")
             presentation.icon = CodeGlanceIcons.GlanceShow
-        }else {
+        } else {
             presentation.text = message("glance.visible.hide")
             presentation.icon = CodeGlanceIcons.GlanceHide
         }
     }
 
-    private fun <T>AnActionEvent.applyToGlance(action: GlancePanel.()->T) =
+    private fun <T> AnActionEvent.applyToGlance(action: GlancePanel.() -> T) =
         getData(CommonDataKeys.EDITOR)?.getUserData(GlancePanel.CURRENT_GLANCE)?.run(action)
 }

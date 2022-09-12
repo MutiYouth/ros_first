@@ -1,6 +1,6 @@
 package com.weng.ros_first.code_glance_pro.render
 
-fun getBottomWeight(c : Int) : Float {
+fun getBottomWeight(c: Int): Float {
     when (c) {
         33 -> return 0.1779f //  = '!'
         34 -> return 0.0000f //  = '"'
@@ -100,7 +100,7 @@ fun getBottomWeight(c : Int) : Float {
     }
 }
 
-fun getTopWeight(c : Int) : Float {
+fun getTopWeight(c: Int): Float {
     when (c) {
         33 -> return 0.2816f // = '!'
         34 -> return 0.4865f // = '"'

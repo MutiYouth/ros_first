@@ -19,12 +19,14 @@ import java.awt.BorderLayout
 import java.awt.Component
 import javax.swing.JPanel
 
-class EditorPanelInjector(private val project: Project) : FileEditorManagerListener,SettingsChangeListener, LafManagerListener {
+class EditorPanelInjector(private val project: Project) : FileEditorManagerListener, SettingsChangeListener,
+    LafManagerListener {
     private val logger = Logger.getInstance(javaClass)
     private var isFirstSetup = true
     private val config = ConfigInstance.state
-    init{
-        ApplicationManager.getApplication().messageBus.connect(project).let{
+
+    init {
+        ApplicationManager.getApplication().messageBus.connect(project).let {
             it.subscribe(SettingsChangeListener.TOPIC, this)
             it.subscribe(LafManagerListener.TOPIC, this)
         }
@@ -47,13 +49,13 @@ class EditorPanelInjector(private val project: Project) : FileEditorManagerListe
     /** SettingsChangeListener */
     override fun onGlobalChanged() {
         val where = if (config.isRightAligned) BorderLayout.LINE_END else BorderLayout.LINE_START
-        processAllGlanceEditor{
+        processAllGlanceEditor {
             it.component.remove(this)
             val oldGlancePanel = applyGlancePanel { Disposer.dispose(this) }
             val myPanel = getMyPanel(it)
             it.component.add(myPanel, where)
             myPanel.applyGlancePanel {
-                oldGlancePanel?.let{ glancePanel -> originalScrollbarWidth = glancePanel.originalScrollbarWidth }
+                oldGlancePanel?.let { glancePanel -> originalScrollbarWidth = glancePanel.originalScrollbarWidth }
                 changeOriginScrollBarWidth()
                 updateImage()
             }
@@ -61,20 +63,21 @@ class EditorPanelInjector(private val project: Project) : FileEditorManagerListe
     }
 
     /** LafManagerListener */
-    override fun lookAndFeelChanged(source: LafManager) = if(isFirstSetup) isFirstSetup = false else {
-        processAllGlanceEditor{ applyGlancePanel{ refresh() } }
+    override fun lookAndFeelChanged(source: LafManager) = if (isFirstSetup) isFirstSetup = false else {
+        processAllGlanceEditor { applyGlancePanel { refresh() } }
     }
 
-    private fun processAllGlanceEditor(block: Component.(editor: EditorImpl)->Unit){
+    private fun processAllGlanceEditor(block: Component.(editor: EditorImpl) -> Unit) {
         try {
             for (textEditor in FileEditorManager.getInstance(project).allEditors.filterIsInstance<TextEditor>()) {
                 val editor = textEditor.editor as? EditorImpl
                 val layout = (editor?.component as? JPanel)?.layout
                 if (layout is BorderLayout) {
-                    (layout.getLayoutComponent(BorderLayout.LINE_END) ?: layout.getLayoutComponent(BorderLayout.LINE_START))?.block(editor)
+                    (layout.getLayoutComponent(BorderLayout.LINE_END)
+                        ?: layout.getLayoutComponent(BorderLayout.LINE_START))?.block(editor)
                 }
             }
-        }catch (e:Exception){
+        } catch (e: Exception) {
             logger.error(e)
         }
     }
@@ -89,14 +92,14 @@ class EditorPanelInjector(private val project: Project) : FileEditorManagerListe
         return jPanel
     }
 
-    private fun Component.applyGlancePanel(block: GlancePanel.()->Unit): GlancePanel?{
+    private fun Component.applyGlancePanel(block: GlancePanel.() -> Unit): GlancePanel? {
         val glancePanel = if (this is MyPanel) panel else if (this is GlancePanel) this else null
         glancePanel?.block()
         return glancePanel
     }
 
-    internal class MyPanel(val panel: GlancePanel):JPanel(BorderLayout()){
-        init{
+    internal class MyPanel(val panel: GlancePanel) : JPanel(BorderLayout()) {
+        init {
             add(panel)
             isOpaque = false
         }
