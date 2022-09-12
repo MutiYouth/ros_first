@@ -1,0 +1,16 @@
+<!-- included by /META-INF/plugin.xml -->
+<idea-plugin>
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- dictionary -->
+        <spellchecker.bundledDictionaryProvider implementation="com.weng.ros_first.ros_integrate.ROSBundledDictionaryProvider"/>
+
+        <!-- ROS Settings -->
+        <projectConfigurable instance="com.weng.ros_first.ros_integrate.settings.ROSSettingsPage" groupId="language" id="ROS"
+                             displayName="ROS"/>
+        <projectConfigurable instance="com.weng.ros_first.ros_integrate.buildtool.ROSProfileSettingsPage" groupId="build" id="ROS.Profiles"
+        displayName="ROS Profiles"/>
+        <projectService serviceImplementation="com.weng.ros_first.ros_integrate.settings.ROSSettings"/>
+        <projectService serviceImplementation="com.weng.ros_first.ros_integrate.buildtool.ROSProfiles"/>
+        <projectService serviceImplementation="com.weng.ros_first.ros_integrate.buildtool.ROSProfileDatabase"/>
+    </extensions>
+</idea-plugin>

@@ -17,4 +17,7 @@
     <!--  code glance pro  -->
     <xi:include href="/plugin_xml/code_glance_pro.xml" xpointer="xpointer(/idea-plugin/*)"/>
 
+    <!-- ROS Integrate -->
+    <xi:include href="/ros_integrate/meta_Inf/plugin.xml" xpointer="xpointer(/idea-plugin/*)"/>
+
 </idea-plugin>

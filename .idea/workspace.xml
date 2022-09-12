@@ -3,12 +3,17 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BookmarksViewState">
+    <option name="groupLineBookmarks" value="false" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9046d34c-85dc-4a7f-8237-382c174375da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.run/Run Plugin (启动另一个测试版本的IDEA).run.xml" afterDir="false" />
+    <list default="true" id="9046d34c-85dc-4a7f-8237-382c174375da" name="Changes" comment="feat, add run again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/config/CodeGlanceConfigurable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/config/CodeGlanceConfigurable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/tool_wnd/MyToolWindow.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/tool_wnd/MyToolWindow.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin_xml/ros_first_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin_xml/ros_first_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +78,10 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
+                    <option name="branchName" value="feature/ros_integrate" />
+                    <option name="lastUsedInstant" value="1662966795" />
+                  </RecentBranch>
+                  <RecentBranch>
                     <option name="branchName" value="feature/code_glance_pro" />
                     <option name="lastUsedInstant" value="1662951039" />
                   </RecentBranch>
@@ -114,32 +123,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "a0ff0a",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
-    "WebServerToolWindowPanel.toolwindow.show.date": "false",
-    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
-    "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "E:/Learns/Java/Projs/220904_clion_plugins/ros_first/build/distributions/ROS FIRST-0.3.0.zip",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3091954",
-    "settings.editor.selected.configurable": "reference.idesettings.quicklists"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;a0ff0a&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Learns/Java/Projs/220904_clion_plugins/ros-integrate&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3091954&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main\resources\plugin_xml" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Learns\Java\Projs\220904_clion_plugins\ros_first\libs" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.Run Plugin (启动另一个测试版本的IDEA)">
+  <component name="RunManager" selected="Gradle.ros_first [buildPlugin]">
     <configuration name="ros_first [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -213,6 +225,10 @@
       <workItem from="1662955519587" duration="3446000" />
       <workItem from="1662963566014" duration="228000" />
       <workItem from="1662963806583" duration="1607000" />
+      <workItem from="1662973538424" duration="75000" />
+      <workItem from="1662973619856" duration="78000" />
+      <workItem from="1662973712330" duration="1164000" />
+      <workItem from="1662974934243" duration="1774000" />
     </task>
     <task id="LOCAL-00001" summary="feat, integration CodeGlancePro repository">
       <created>1662955834231</created>
@@ -270,7 +286,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature/code_glance_pro" />
+                        <option value="feature/ros_integrate" />
                       </list>
                     </value>
                   </entry>

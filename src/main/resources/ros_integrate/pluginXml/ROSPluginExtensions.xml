@@ -1,0 +1,20 @@
+<!-- included by /META-INF/plugin.xml -->
+<idea-plugin>
+    <!-- <name>ROS Support</name> -->
+    <!-- <vendor email="TheNODO55@gmail.com">Noam Dori</vendor> -->
+    <!-- <id>ros-integrate</id> -->
+
+    <projectListeners>
+        <listener class="com.weng.ros_first.ros_integrate.pkg.ROSIndexChangeListener" topic="com.intellij.openapi.vfs.newvfs.BulkFileListener"/>
+    </projectListeners>
+
+    <extensionPoints>
+        <extensionPoint name="packageFinder" interface="com.weng.ros_first.ros_integrate.pkg.ROSPackageFinder"/>
+        <extensionPoint name="exportLangHelper" interface="com.weng.ros_first.ros_integrate.pkg.xml.annotate.ExportLangHelper"/>
+    </extensionPoints>
+
+    <extensions defaultExtensionNs="ros-integrate">
+        <packageFinder implementation="com.weng.ros_first.ros_integrate.pkg.ROSWorkspacePackageFinder"/>
+        <packageFinder implementation="com.weng.ros_first.ros_integrate.pkg.ROSCompiledPackageFinder"/>
+    </extensions>
+</idea-plugin>

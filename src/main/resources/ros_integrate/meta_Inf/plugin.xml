@@ -1,0 +1,23 @@
+<idea-plugin xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <xi:include href="/ros_integrate/pluginXml/dependencies.xml" xpointer="xpointer(/idea-plugin/*)"/>
+
+    <!-- extensions defined (and sometimes used) by this plugin. note that identifies are also here. -->
+    <xi:include href="/ros_integrate/pluginXml/ROSPluginExtensions.xml" xpointer="xpointer(/idea-plugin/*)"/>
+
+    <!-- misc. features not specific to the plugin model. -->
+    <xi:include href="/ros_integrate/pluginXml/generalExtensions.xml" xpointer="xpointer(/idea-plugin/*)"/>
+
+    <!-- features extending the CMake build language (CMakeLists.txt, *.cmake) -->
+    <xi:include href="/ros_integrate/pluginXml/CMakeExtensions.xml" xpointer="xpointer(/idea-plugin/*)"/>
+
+    <!-- features defining the language used for packet files (*.msg, *.srv, *.action), and their functions. -->
+    <xi:include href="/ros_integrate/pluginXml/ROSPktExtensions.xml" xpointer="xpointer(/idea-plugin/*)"/>
+
+    <!-- features implementing the package model used throughout ROS. -->
+    <xi:include href="/ros_integrate/pluginXml/ROSPackageExtensions.xml" xpointer="xpointer(/idea-plugin/*)"/>
+
+    <!-- features implementing the manifests of ROS packages, named package.xml. -->
+    <xi:include href="/ros_integrate/pluginXml/ROSPkgXmlExtensions.xml" xpointer="xpointer(/idea-plugin/*)"/>
+
+</idea-plugin>

@@ -19,5 +19,5 @@ murphe@qq.com
 * [CodeGlancePro](https://github.com/Nasller/CodeGlancePro.git)
 ## ROS Techs about
 * [hatchery](https://github.com/duckietown/hatchery) (https://plugins.jetbrains.com/plugin/10290-hatchery)
-* [ros-support](https://github.com/Noam-Dori/ros-integrate/) (https://plugins.jetbrains.com/plugin/11235-ros-support)
+* [ros-integrate](https://github.com/Noam-Dori/ros-integrate/tree/f-cmake) (https://plugins.jetbrains.com/plugin/11235-ros-support)
 

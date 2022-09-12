@@ -45,6 +45,18 @@ intellij {
     env["languagePlugins"]?.let { plugins.add(it) }
 }
 
+
+// Include the generated files in the source set
+sourceSets {
+    main {
+        java {
+            srcDirs("src/main/java")
+            srcDirs("src/main/gen")
+        }
+    }
+}
+
+
 tasks {
     runIde {
         systemProperties["idea.is.internal"] = true
@@ -84,9 +96,13 @@ tasks {
     //     targetCompatibility = "11"
     // }
 
+
     patchPluginXml {
         sinceBuild.set("221.*")
         untilBuild.set("223.*")
+
+        val content = File("change_log.html").readText()
+        changeNotes.set(content)
         // 以plugin.xml中设置的 changeNotes为优先级最高。  9.6
         /*changeNotes.set("""
             hello test.

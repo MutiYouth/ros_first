@@ -12,16 +12,16 @@
         </description>
     ]]>
     </description>
-    <change-notes>
-        <![CDATA[
-          <ul>
-            <li><b>0.3.0</b> add code glance pro forked form https://github.com/Nasller/CodeGlancePro. </li>
-            <li><b>0.2.3</b> refactor plugin.xml, with different xml.</li>
-            <li><b>0.2.2</b> bugs fix.</li>
-            <li><b>0.2.0</b> add tool window, markdown live templates.</li>
-            <li><b>0.1.0</b> init.</li>
-          </ul>
-        ]]>
-    </change-notes>
+    <!-- <change-notes> -->
+    <!--     <![CDATA[ -->
+    <!--       <ul> -->
+    <!--         <li><b>0.3.0</b> add code glance pro forked form https://github.com/Nasller/CodeGlancePro. </li> -->
+    <!--         <li><b>0.2.3</b> refactor plugin.xml, with different xml.</li> -->
+    <!--         <li><b>0.2.2</b> bugs fix.</li> -->
+    <!--         <li><b>0.2.0</b> add tool window, markdown live templates.</li> -->
+    <!--         <li><b>0.1.0</b> init.</li> -->
+    <!--       </ul> -->
+    <!--     ]]> -->
+    <!-- </change-notes> -->
     <idea-version since-build="211.0"/>
 </idea-plugin>

@@ -1,0 +1,36 @@
+{
+  parserClass="parser.condition.xml.pkg.com.weng.ros_first.ros_integrate.ROSConditionParser"
+
+  extends="com.intellij.extapi.psi.ASTWrapperPsiElement"
+  psiClassPrefix="ROSCondition"
+  psiImplClassSuffix="Impl"
+  psiPackage="com.weng.ros_first.ros_integrate.pkg.xml.condition.psi"
+  psiImplPackage="com.weng.ros_first.ros_integrate.pkg.xml.condition.psi.impl"
+ 
+  elementTypeHolderClass="psi.condition.xml.pkg.com.weng.ros_first.ros_integrate.ROSConditionTypes"
+  elementTypeClass="com.weng.ros_first.ros_integrate.pkg.xml.condition.psi.ROSConditionElementType"
+  tokenTypeClass="com.weng.ros_first.ros_integrate.pkg.xml.condition.psi.ROSConditionTokenType"
+ 
+  psiImplUtilClass="com.weng.ros_first.ros_integrate.pkg.xml.condition.psi.impl.ROSConditionImplUtil"
+}
+
+rosCondition ::= entry_series_ // these will always have their own thing we define on our own
+
+logic ::= COMPARISON | LOGIC_OPERATOR {
+    implements="psi.condition.xml.pkg.com.weng.ros_first.ros_integrate.ROSConditionToken"
+}
+
+item ::= VARIABLE | LITERAL {
+    implements="com.weng.ros_first.ros_integrate.pkg.xml.condition.psi.ROSConditionExpr"
+    mixin="com.weng.ros_first.ros_integrate.pkg.xml.condition.psi.impl.ROSConditionExprImpl"
+    methods=[checkValid evaluate]
+}
+
+private entry_series_ ::= entry_ (logic? entry_)*
+
+private entry_ ::= order | item
+
+order ::= LPARENTHESIS entry_series_ RPARENTHESIS {
+    implements="com.weng.ros_first.ros_integrate.pkg.xml.condition.psi.ROSConditionExpr"
+    mixin="com.weng.ros_first.ros_integrate.pkg.xml.condition.psi.impl.ROSConditionExprImpl"
+}

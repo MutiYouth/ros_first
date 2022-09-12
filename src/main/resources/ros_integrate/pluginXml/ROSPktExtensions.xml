@@ -1,0 +1,47 @@
+<!-- included by /META-INF/plugin.xml -->
+<idea-plugin>
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- ROS packet file definitions -->
+        <fileType name="ROSMsg" implementationClass="com.weng.ros_first.ros_integrate.pkt.file.ROSMsgFileType"
+                  language="ROSPkt" extensions="msg" fieldName="INSTANCE"/>
+        <fileType name="ROSSrv" implementationClass="com.weng.ros_first.ros_integrate.pkt.file.ROSSrvFileType"
+                  language="ROSPkt" extensions="srv" fieldName="INSTANCE"/>
+        <fileType name="ROSAct" implementationClass="com.weng.ros_first.ros_integrate.pkt.file.ROSActFileType"
+                  language="ROSPkt" extensions="action" fieldName="INSTANCE"/>
+
+        <!-- language features -->
+        <lang.parserDefinition language="ROSPkt" implementationClass="com.weng.ros_first.ros_integrate.pkt.lang.ROSPktParserDefinition"/>
+        <lang.syntaxHighlighterFactory language="ROSPkt" implementationClass="com.weng.ros_first.ros_integrate.pkt.highlight.ROSPktSyntaxHighlighterFactory"/>
+        <lang.commenter language="ROSPkt" implementationClass="com.weng.ros_first.ros_integrate.pkt.ROSPktCommenter"/>
+        <lang.refactoringSupport language="ROSPkt" implementationClass="com.weng.ros_first.ros_integrate.pkt.ROSPktRefactoringSupportProvider"/>
+        <lang.braceMatcher language="ROSPkt" implementationClass="com.weng.ros_first.ros_integrate.pkt.ROSPktBraceMatcher"/>
+        <lang.elementManipulator forClass="com.weng.ros_first.ros_integrate.pkt.psi.ROSPktType"
+                                 implementationClass="com.weng.ros_first.ros_integrate.pkt.ROSPktTypeElementManipulator"/>
+        <psi.referenceContributor language="ROSPkt" implementation="com.weng.ros_first.ros_integrate.pkt.ROSMsgFileReferenceContributor"/>
+        <psi.referenceContributor language="ROSPkt" implementation="com.weng.ros_first.ros_integrate.pkg.ref.ROSPktTypeReferenceContributor"/>
+        <completion.contributor language="ROSPkt" implementationClass="com.weng.ros_first.ros_integrate.pkt.ROSPktCompletionContributor"/>
+        <spellchecker.support language="ROSPkt" implementationClass="com.weng.ros_first.ros_integrate.pkt.ROSPktSpellcheckingStrategy"/>
+        <colorSettingsPage implementation="com.weng.ros_first.ros_integrate.pkt.highlight.ROSPktColorSettings"/>
+        <nameSuggestionProvider implementation="com.weng.ros_first.ros_integrate.pkt.ROSPktNameSuggestionProvider" />
+        <moveFileHandler implementation="com.weng.ros_first.ros_integrate.pkt.MovePktFileHandler"/>
+        <renameHandler implementation="com.weng.ros_first.ros_integrate.pkt.ROSPktTypeInplaceRenameHandler"/>
+
+        <!-- language inspections and annotations -->
+        <annotator language="ROSPkt" implementationClass="com.weng.ros_first.ros_integrate.pkt.annotate.ROSPktAnnotator"/>
+        <localInspection language="ROSPkt" implementationClass="com.weng.ros_first.ros_integrate.pkt.inspection.CamelCaseInspection"
+                         level="WARNING" enabledByDefault="true" shortName="type-not-camelcase"
+                         groupName="ROS" displayName="Type not in PascalCase"/>
+        <localInspection language="ROSPkt" implementationClass="com.weng.ros_first.ros_integrate.pkt.inspection.SnakeCaseInspection"
+                         level="WARNING" enabledByDefault="true" shortName="label-not-snake-case"
+                         groupName="ROS" displayName="Type not in snake_case"/>
+        <localInspection language="ROSPkt" implementationClass="com.weng.ros_first.ros_integrate.pkt.inspection.DeprecatedTypeInspection"
+                         level="WARNING" enabledByDefault="true" shortName="deprecated-type"
+                         groupName="ROS" displayName="Deprecated type"/>
+        <localInspection language="ROSPkt" implementationClass="com.weng.ros_first.ros_integrate.pkt.inspection.AvoidStdMsgsInspection"
+                         level="WARNING" enabledByDefault="true" shortName="avoid-std-msgs"
+                         groupName="ROS" displayName="Redundant std_msg type"/>
+        <localInspection language="ROSPkt" implementationClass="com.weng.ros_first.ros_integrate.pkt.inspection.RedundantStampingInspection"
+                         level="WEAK WARNING" enabledByDefault="true" shortName="redundant-stamping"
+                         groupName="ROS" displayName="Redundant header stamp"/>
+    </extensions>
+</idea-plugin>
