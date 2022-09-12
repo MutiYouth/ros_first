@@ -1,0 +1,27 @@
+<!-- included by /META-INF/plugin.xml -->
+<idea-plugin>
+    <depends>com.intellij.modules.lang</depends>
+
+    <!-- 设置语言方面的东西 -->
+    <resource-bundle>messages.code_glance_pro_bundle</resource-bundle>
+
+    <applicationListeners>
+        <listener topic="com.intellij.openapi.project.ProjectManagerListener"
+                  class="com.weng.ros_first.code_glance_pro.CodeGlancePlugin"/>
+    </applicationListeners>
+
+    <actions>
+        <action id="CodeGlance.toggle" text="Toggle CodeGlance"
+                class="com.weng.ros_first.code_glance_pro.actions.ToggleVisibleAction"
+                description="Toggles CodeGlance on and off">
+            <keyboard-shortcut first-keystroke="control shift G" keymap="$default"/>
+        </action>
+    </actions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationConfigurable instance="com.weng.ros_first.code_glance_pro.config.CodeGlanceConfigurable"/>
+        <applicationService serviceImplementation="com.weng.ros_first.code_glance_pro.config.CodeGlanceConfigService"/>
+        <iw.actionProvider implementation="com.weng.ros_first.code_glance_pro.extensions.GlanceVisibleActionProvider"/>
+        <!-- <statusBarWidgetFactory implementation="com.nasller.codeglance.extensions.widget.GlanceVisibleWidgetFactory"/> -->
+    </extensions>
+</idea-plugin>

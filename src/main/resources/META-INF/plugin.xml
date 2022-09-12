@@ -13,4 +13,8 @@
 
     <!-- basic plugin grammar for test -->
     <xi:include href="/plugin_xml/basic_plugin_grammar.xml" xpointer="xpointer(/idea-plugin/*)"/>
+
+    <!--  code glance pro  -->
+    <xi:include href="/plugin_xml/code_glance_pro.xml" xpointer="xpointer(/idea-plugin/*)"/>
+
 </idea-plugin>

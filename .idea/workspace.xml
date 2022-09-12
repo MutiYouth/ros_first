@@ -5,8 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9046d34c-85dc-4a7f-8237-382c174375da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/CodeGlancePlugin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/EditorPanelInjector.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/actions/ToggleVisibleAction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/config/CodeGlanceConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/config/CodeGlanceConfigService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/config/CodeGlanceConfigurable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/config/enums/MouseJumpEnum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/extensions/GlanceVisibleActionProvider.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/extensions/widget/GlanceToggleVisibleWidgetPanel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/extensions/widget/GlanceVisibleWidgetFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/listener/GlanceListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/listener/HideScrollBarListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/listener/MyVcsListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/panel/CustomScrollBarPopup.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/panel/GlancePanel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/panel/scroll/CustomEditorFragmentRenderer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/panel/scroll/ScrollBar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/panel/vcs/MyVcsPanel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/render/CharacterWeight.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/render/Minimap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/render/ScrollState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/util/CodeGlanceBundle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/weng/ros_first/code_glance_pro/util/CodeGlanceIcons.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/CharacterWeight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/python/cour.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/glanceHide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/glanceHide_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/glanceShow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/glanceShow_dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/widget.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages/code_glance_pro_bundle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages/code_glance_pro_bundle_zh.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin_xml/code_glance_pro.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.run/Run Plugin (启动另一个测试版本的IDEA).run.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin_xml/dependencies.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin_xml/dependencies.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin_xml/ros_first_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin_xml/ros_first_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,23 +79,6 @@
                 <item name="ros_first" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ros_first" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ros_first" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="intellij" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ros_first" type="f1a62948:ProjectNode" />
-                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -65,7 +87,38 @@
     </system>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/code_glance_pro" />
+                    <option name="lastUsedInstant" value="1662951039" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1662951009" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -92,25 +145,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Project.color&quot;: &quot;a0ff0a&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Project.color": "a0ff0a",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "E:/Learns/Java/Projs/220904_clion_plugins/ros_first/build/distributions/ROS_FIRST-0.3.0.zip",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3091954",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Learns\Java\Projs\220904_clion_plugins\ros_first\src\main\resources\plugin_xml" />
+    </key>
+  </component>
   <component name="RunManager" selected="Gradle.ros_first [buildPlugin]">
     <configuration name="ros_first [buildPlugin]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -138,7 +197,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -154,8 +213,14 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Gradle.ros_first [build]" />
+      <item itemvalue="Gradle.ros_first [buildPlugin]" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ros_first [buildPlugin]" />
+        <item itemvalue="Gradle.ros_first [build]" />
         <item itemvalue="Gradle.ros_first [buildPlugin]" />
         <item itemvalue="Gradle.ros_first [build]" />
       </list>
@@ -172,10 +237,47 @@
       <workItem from="1662787857655" duration="713000" />
       <workItem from="1662799177192" duration="8000" />
       <workItem from="1662812664205" duration="614000" />
+      <workItem from="1662954037529" duration="39000" />
+      <workItem from="1662954090892" duration="955000" />
+      <workItem from="1662955062772" duration="442000" />
+      <workItem from="1662955519587" duration="168000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/code_glance_pro" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="feat, stop current version of codeglance3, until i can hold it" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat, stop current version of codeglance3, until i can hold it" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -16,6 +16,7 @@ murphe@qq.com
 * [IntelliJ Platform SDK](https://plugins.jetbrains.com/docs/intellij/welcome.html)
 * [intellij-sdk-code-samples](https://github.com/JetBrains/intellij-sdk-code-samples)
 * [gitmoji-plugin](https://github.com/armanim/gitmoji-plugin)
+* [CodeGlancePro](https://github.com/Nasller/CodeGlancePro.git)
 ## ROS Techs about
 * [hatchery](https://github.com/duckietown/hatchery) (https://plugins.jetbrains.com/plugin/10290-hatchery)
 * [ros-support](https://github.com/Noam-Dori/ros-integrate/) (https://plugins.jetbrains.com/plugin/11235-ros-support)
